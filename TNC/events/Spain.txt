@@ -27,6 +27,11 @@ country_event = {
    type = annex_everything
  }   
 		}
+  release = CAT
+  ADU = {
+  transfer_state = 173
+  transfer_state = 169
+  }
 	}
  		custom_effect_tooltip = cooked
 }

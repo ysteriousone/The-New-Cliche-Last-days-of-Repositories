@@ -8,20 +8,11 @@ state = {
 	}
 
 	history = {
-		owner = GXC
+		owner = LIN
+		add_core_of = LIN
 		add_core_of = GXC
-		1936.1.1 = {
-			IF = {
-				limit = {
-					has_dlc = "No Compromise, No Surrender"
-				}
-				transfer_state_to = GDC
-				add_core_of = GDC
-				remove_core_of = GXC
-			}
-		}
-		add_core_of = CHI
 		add_core_of = PRC
+		add_core_of = CHI
 
 		buildings = {
 			infrastructure = 2

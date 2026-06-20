@@ -47,6 +47,11 @@ LON = {
 	color_ui = rgb {0 191 255 }
 }
 
+HNN = {
+	color = rgb { 119 198 255 }
+	color_ui = rgb {119 198 255 }
+}
+
 RUS = {
 	color = rgb { 0 78 30 }
 	color_ui = rgb {0 78 30 }
@@ -1424,8 +1429,8 @@ GSM = {
 	color_ui = rgb { 12 26 39 }
 }
 GDC = {
-	color = rgb { 45 134 89 }
-	color_ui = rgb { 25 77 51 }
+	color = rgb { 84 0 67 }
+	color_ui = rgb { 84 0 67 }
 }
 KHM = {
 	color = rgb { 153 102 51 }
@@ -1449,8 +1454,18 @@ XIC = {
 }
 
 RNG = {
-	color = rgb { 255 191 0 }
-	color_ui = rgb { 204 153 0 } 
+	color = rgb {196 104 104 }
+	color_ui = rgb { 196 104 104 } 
+}
+
+GUI = {
+	color = rgb {99 52 52 }
+	color_ui = rgb { 99 52 52 } 
+}
+
+ANH = {
+	color = rgb { 63 127 71 }
+	color_ui = rgb { 63 127 71 }
 }
 
 PSR = {

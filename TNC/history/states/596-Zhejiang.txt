@@ -6,7 +6,8 @@ state = {
 
 	history = {
 
-		owner = CHI
+		owner = RNG
+		add_core_of = RNG
 		add_core_of = CHI
 		add_core_of = PRC
 		

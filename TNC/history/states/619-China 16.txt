@@ -12,7 +12,8 @@ state={
 	}
 
 	history={
-		owner = SIK
+		owner = KHM
+		add_core_of = KHM
 		add_core_of = SIK
 		add_core_of = CHI
 		add_core_of = PRC
