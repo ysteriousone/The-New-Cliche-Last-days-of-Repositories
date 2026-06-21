@@ -1432,6 +1432,16 @@ GDC = {
 	color = rgb { 84 0 67 }
 	color_ui = rgb { 84 0 67 }
 }
+
+LIN = {
+	color = rgb { 142 107 158 }
+	color_ui = rgb { 142 107 158 }
+	
+}
+SCR = {
+	color = rgb { 84 70 0}
+	color_ui = rgb { 84 70 0 }
+}
 KHM = {
 	color = rgb { 153 102 51 }
 	color_ui = rgb { 96 64 32 }
