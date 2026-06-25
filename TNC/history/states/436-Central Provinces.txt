@@ -12,7 +12,8 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = RSS
+		add_core_of = RSS
 		
 		buildings = {
 			infrastructure = 1

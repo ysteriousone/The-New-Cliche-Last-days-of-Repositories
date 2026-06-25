@@ -11,7 +11,8 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = INC
+		add_core_of = INC
 		add_core_of = RAJ
 		add_core_of = KHL 
 		buildings = {

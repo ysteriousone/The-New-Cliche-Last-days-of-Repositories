@@ -10,7 +10,8 @@ state={
 	}
 
 	history={
-		owner = BRA
+		owner = SAO
+		add_core_of = SAO
 		add_core_of = BRA
 		buildings = {
 			arms_factory = 1

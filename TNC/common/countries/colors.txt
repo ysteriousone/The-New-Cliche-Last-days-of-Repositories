@@ -233,6 +233,11 @@ BRA = {
 	color = rgb { 76 145 63 }
 	color_ui = rgb { 99 189 82 }
 }
+
+BRA = {
+	color = rgb {38 127 0 }
+	color_ui = rgb { 38 127 0 }
+}
 CAN = {
 	color = rgb { 233  59  59 }
 	color_ui = rgb { 155 62 51 }
@@ -316,6 +321,10 @@ PHI = {
 	color_ui = rgb { 0 40 195 }
 }
 PRU = {
+	color = rgb { 196 189 204 }
+	color_ui = rgb { 255 246 255 }
+}
+ACR = {
 	color = rgb { 196 189 204 }
 	color_ui = rgb { 255 246 255 }
 }
@@ -546,6 +555,16 @@ SLO = {
 RAJ = {
 	color = rgb { 226  135  40 }
 	color_ui = rgb { 226  135  40 }
+}
+
+CPI = {
+	color = rgb { 132 0 0 }
+	color_ui = rgb { 132 0 0 }
+}
+
+RSS = {
+	color = rgb { 153 61 0}
+	color_ui = rgb { 153 61 0 }
 }
 
 IND = {
@@ -1155,8 +1174,12 @@ GAR = {
 	color_ui = rgb { 0 0 128 }
 }
 INC = {
-	color = rgb { 255 204 0 }
-	color_ui = rgb { 128 102 0 }
+	color = rgb {0 66 114 }
+	color_ui = rgb { 0 66 114 }
+}
+NAP = {
+	color = rgb {0 92 158 }
+	color_ui = rgb { 0 92 158 }
 }
 MIS = {
 	color = rgb { 255 51 0 }
