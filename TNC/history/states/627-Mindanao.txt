@@ -7,7 +7,8 @@ state = {
 
 	history = {
 
-		owner = PHI
+		owner = PSR
+		add_core_of = PSR
 		add_core_of = PHI
 
 		buildings = {
@@ -19,6 +20,7 @@ state = {
 			}
 
 		}
+	set_demilitarized_zone = yes
 
 		victory_points = {
 			4241 5 # Davao

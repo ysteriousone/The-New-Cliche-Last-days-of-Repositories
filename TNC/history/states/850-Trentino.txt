@@ -11,6 +11,7 @@ state = {
 			9598 1
 		}
 		owner = GER
+		
 		buildings = {
 			infrastructure = 2 #was 3 before split
 		}

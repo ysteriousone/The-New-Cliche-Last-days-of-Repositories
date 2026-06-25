@@ -13,14 +13,14 @@ set_technology = {
 set_convoys = 200
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative_democratic
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 93
-	communism = 2
+	conservative_democratic = 93
+	democratic = 2
 	neutrality = 5
 	
 }
@@ -29,6 +29,6 @@ create_country_leader = {
 			desc = "POLITICS_DE_GAULLE_DESC"
 			picture =Portrait_France_Charles_De_Gaulle.dds	
 			expire = "1965.1.1"
-			ideology = populism
+			ideology = de_gaullism
 			}
 		}

@@ -613,14 +613,30 @@ set_grand_doctrine = new_strategic_destruction
 
 
 set_politics = {
-	ruling_party = burgundian_ideas
+	ruling_party = democratic
 	last_election = "1936.1.1" #Was 1932.11.27 but changed to allow for Government Resigns focus to simulate this election.
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	burgundian_ideas = 100
+	democratic = 83
+	fascism = 11
+	communism = 6
+}
+
+1939.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1939.4.2"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 87
+		fascism = 8
+		communism = 5
+	}
 }
 
 set_convoys = 80

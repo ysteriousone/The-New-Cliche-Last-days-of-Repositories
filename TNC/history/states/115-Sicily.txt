@@ -5,7 +5,6 @@ state = {
 
 	history = {
 		owner = SME
-		add_core_of = SME
 		victory_points = {
 			10074 20 
 		}
@@ -42,6 +41,7 @@ state = {
 
 		}
 		add_core_of = ITA
+		add_core_of = SME
 		add_core_of = TTS
 
 	}

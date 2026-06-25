@@ -9,7 +9,7 @@ state = {
 
 	history = {
 
-		owner = SME
+		owner = LBA
 		add_core_of = LBA
 
 		buildings = {

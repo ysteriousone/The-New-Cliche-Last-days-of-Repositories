@@ -11,7 +11,7 @@ state={
 	state_category = town
 
 	history={
-		owner = URG
+		owner = BRA
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
@@ -20,7 +20,7 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = URG
+		add_core_of = BRA
 		victory_points = {
 			10447 3 
 		}

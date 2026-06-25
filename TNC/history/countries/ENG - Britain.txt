@@ -523,7 +523,7 @@ set_popularities = {
 }
 
 
-create_faction_from_template = { template = faction_template_allies
+create_faction_from_template = { template = faction_template_axis
  name = "London Accords"
  }
 IF= {
