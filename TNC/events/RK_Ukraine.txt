@@ -12,7 +12,7 @@ country_event = {
 	picture = GFX_report_event_spain_civil_war_soldiers
 
 	fire_only_once = yes
-
+    is_triggered_only = yes 
 	option = { # Alan we are so cooked
 		name = ukraine.1.a  
   release = DON
