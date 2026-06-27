@@ -1,0 +1,27 @@
+﻿###########################
+# Proxy Wars
+###########################
+
+add_namespace = proxy
+
+# Hispaniolan Unification
+country_event = {
+	id = proxy.1
+	title = proxy.1.t
+	desc = proxy.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+
+	option = { 
+		name = proxy.1.a
+		
+	DOM = {
+	declare_war_on = {
+	target = HAI
+	type = annex_everything
+}
+}
+}
+
+}
