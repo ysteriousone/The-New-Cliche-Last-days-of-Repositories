@@ -5,6 +5,11 @@ GNA = {
 	color_ui = rgb {99 39 0 }
 }
 
+UPR = {
+	color = rgb { 0  80  230 }
+	color_ui = rgb { 0  80  230 }	
+}
+
 CMR = {
 	color = rgb { 13 45 0 }
 	color_ui = rgb {13 45 0 }
@@ -1061,6 +1066,11 @@ KOM = {
 	color = rgb { 255 0 0 }
 	color_ui = rgb { 255 0 0 }
 }
+
+UKS = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
 ABK = {
 	color = rgb { 51 204 51 }
 	color_ui = rgb { 36 143 36 }
@@ -1180,6 +1190,10 @@ INC = {
 NAP = {
 	color = rgb {0 92 158 }
 	color_ui = rgb { 0 92 158 }
+}
+OUN = {
+	color = rgb {40 40 40}
+	color_ui = rgb { 40 40 40 }
 }
 MIS = {
 	color = rgb { 255 51 0 }

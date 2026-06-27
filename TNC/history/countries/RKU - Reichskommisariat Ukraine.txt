@@ -1,5 +1,5 @@
 ﻿capital = 202 # Kiev
-
+country_event = { id = ukraine.1 days 700 }
 set_stability = 0.4
 set_war_support = 0.7
 
