@@ -164,6 +164,7 @@ recruit_character = RKU_erich_koch
 add_ideas = {
 	war_economy
 	extensive_conscription
+	UKR_A_Broken_East
 }
 
 

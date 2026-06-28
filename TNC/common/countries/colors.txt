@@ -10,6 +10,10 @@ UPR = {
 	color_ui = rgb { 0  80  230 }	
 }
 
+UKH = {
+	color = rgb { 200 140 0 }
+	color_ui = rgb { 200 140 0 }	
+}
 CMR = {
 	color = rgb { 13 45 0 }
 	color_ui = rgb {13 45 0 }

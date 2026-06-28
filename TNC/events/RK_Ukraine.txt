@@ -48,6 +48,13 @@ country_event = {
   add_state_core = 193
   add_state_core = 194
   }
+  UKH = {
+  transfer_state = 197
+  transfer_state = 203
+  transfer_state = 198
+  add_state_core = 197
+  add_state_core = 203
+  add_state_core = 198
 }
 
 

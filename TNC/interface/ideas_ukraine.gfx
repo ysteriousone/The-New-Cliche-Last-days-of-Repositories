@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = "A_Broken_East"
+        texturefile = "gfx/interface/ideas/A_Broken_East.dds"
+    }
+}
