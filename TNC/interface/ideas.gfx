@@ -21,7 +21,7 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
-        name = "GFX_A_Broken_East"
+        name = "UKR_A_Broken_East"
         texturefile = "gfx/interface/ideas/A_Broken_East.dds"
     }
 	

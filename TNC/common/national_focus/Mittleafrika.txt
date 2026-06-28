@@ -1,0 +1,664 @@
+﻿focus_tree = {
+	id = Mittleafrika_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = RKA
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = RKA_The_Dreams_of_Mittleafrika
+		icon = GFX_focus_GER_realize_mittelafrika
+		x = 6
+		y = 0
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = RKA_Is_a_nightmare
+		icon = GFX_goal_generic_major_war
+		x = 6
+		y = 1
+
+		cost = 2
+    prerequisite = {focus = RKA_The_Dreams_of_Mittleafrika }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+focus = {
+		id = RKA_Marking_our_Enemies
+		icon = GFX_focus_GER_loyalty_to_the_fuhrer
+		x = 6
+		y = 2
+
+		cost = 2
+    prerequisite = {focus = RKA_Is_a_nightmare }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = RKA_The_Pan_African_Scum
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 3
+
+		cost = 2
+    prerequisite = {focus = RKA_Marking_our_Enemies }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RKA_Another_Barbarossa
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 4
+
+		cost = 2
+    prerequisite = {focus = RKA_The_Pan_African_Scum }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+		focus = {
+		id = RKA_Dealing_with_the_Rebels
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 5
+
+		cost = 2
+    prerequisite = {focus = RKA_Another_Barbarossa }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RKA_Court_Sokoto
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 4
+
+		cost = 2
+    prerequisite = {focus = RKA_The_Pan_African_Scum }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RKA_Send_them_Men
+		icon = GFX_goal_generic_major_war
+		x = 2
+		y = 5
+
+		cost = 2
+    prerequisite = {focus = RKA_Court_Sokoto}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = RKA_The_Petainist_Remnants
+		icon = GFX_goal_generic_major_war
+		x = 5
+		y = 3
+
+		cost = 2
+    prerequisite = {focus = RKA_Marking_our_Enemies }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RKA_Erase_Francophile_elements
+		icon = GFX_goal_generic_major_war
+		x = 5
+		y = 4
+
+		cost = 2
+    prerequisite = {focus = RKA_The_Petainist_Remnants }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RKA_Ridicule_The_French_Situation
+		icon = GFX_goal_generic_major_war
+		x = 5
+		y = 5
+
+		cost = 2
+    prerequisite = {focus = RKA_Erase_Francophile_elements }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RKA_The_South_Africans
+		icon = GFX_goal_generic_major_war
+		x = 8
+		y = 3
+
+		cost = 2
+    prerequisite = {focus = RKA_Marking_our_Enemies }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+		focus = {
+		id = RKA_Our_own_Volkstaat
+		icon = GFX_goal_generic_major_war
+		x = 8
+		y = 4
+
+		cost = 2
+    prerequisite = {focus = RKA_The_South_Africans }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		release = BOT
+		set_autonomy = {
+		target = BOT
+		autonomous_state = autonomy_puppet
+	}
+	every_state = {
+	limit = {
+	is_core_of = SAF
+	}
+	add_core_of = BOT
+	}
+		}
+}	
+	focus = {
+		id = RKA_The_NSDAP_itself
+		icon = GFX_RKA_The_NSDAP_itself
+		x = 11
+		y = 3
+
+		cost = 2
+    prerequisite = {focus = RKA_Marking_our_Enemies }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RKA_The_One_Exception
+		icon = GFX_goal_generic_major_war
+		x = 14
+		y = 4
+
+		cost = 2
+    prerequisite = {focus = RKA_The_NSDAP_itself }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+		focus = {
+		id = RKA_Hotline_Berlin
+		icon = GFX_goal_generic_major_war
+		x = 14
+		y = 5
+
+		cost = 2
+    prerequisite = {focus = RKA_The_One_Exception }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+		focus = {
+		id = RKA_What_to_do_with_the_SS
+		icon = GFX_focus_GER_fuhrerprinzip_himmler
+		x = 11
+		y = 4
+
+		cost = 2
+    prerequisite = {focus = RKA_The_NSDAP_itself }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = RKA_Work_with_Hutting
+		icon = GFX_goal_generic_major_war
+		x = 12
+		y = 5
+
+		cost = 2
+    prerequisite = {focus = RKA_What_to_do_with_the_SS }
+	mutually_exclusive = {focus = RKA_Use_Standard_Colonial_Troops }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+    focus = {
+		id = RKA_Use_Standard_Colonial_Troops
+		icon = GFX_focus_GER_all_for_the_front
+		x = 10
+		y = 5
+
+		cost = 2
+    prerequisite = {focus = RKA_What_to_do_with_the_SS }
+	mutually_exclusive = {focus = RKA_Work_with_Hutting }
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+	    focus = {
+		id = RKA_Send_A_Complaint
+		icon = GFX_goal_generic_major_war
+		x = 13
+		y = 6
+
+		cost = 2
+    prerequisite = {focus = RKA_Hotline_Berlin}
+	    prerequisite = {focus = RKA_Work_with_Hutting
+		                focus = RKA_Use_Standard_Colonial_Troops
+						}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+	
+		    focus = {
+		id = RKA_Fall
+		icon = GFX_goal_generic_major_war
+		x = 8
+		y = 8
+
+		cost = 2
+    prerequisite = {focus = RKA_Send_A_Complaint}
+	prerequisite = {focus = RKA_Our_own_Volkstaat}
+	prerequisite = {focus = RKA_Ridicule_The_French_Situation}
+	prerequisite = {focus = RKA_Send_them_Men}
+	prerequisite = {focus = RKA_Dealing_with_the_Rebels}
+	
+	
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+		}
+	}
+
+
+
+}		

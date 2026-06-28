@@ -916,6 +916,7 @@ add_to_faction = VGE
 add_to_faction = PER
 add_to_faction = IRQ
 add_to_faction = RKB
+add_to_faction = RKA
 
 # Setup of National Spirits
 add_ideas = {
