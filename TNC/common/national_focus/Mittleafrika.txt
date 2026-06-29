@@ -44,7 +44,7 @@
 	
 focus = {
 		id = RKA_Is_a_nightmare
-		icon = GFX_goal_generic_major_war
+		icon = GFX_RKA_Is_a_nightmare
 		x = 6
 		y = 1
 
@@ -73,7 +73,7 @@ focus = {
 	}
 focus = {
 		id = RKA_Marking_our_Enemies
-		icon = GFX_focus_GER_loyalty_to_the_fuhrer
+		icon = GFX_RKA_Marking_our_Enemies
 		x = 6
 		y = 2
 
@@ -103,7 +103,7 @@ focus = {
 	
 focus = {
 		id = RKA_The_Pan_African_Scum
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_africa_defense
 		x = 2
 		y = 3
 
@@ -133,7 +133,7 @@ focus = {
 	
 	focus = {
 		id = RKA_Another_Barbarossa
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_attack_soviet
 		x = 0
 		y = 4
 
@@ -163,7 +163,7 @@ focus = {
 	
 		focus = {
 		id = RKA_Dealing_with_the_Rebels
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_army_attack
 		x = 0
 		y = 5
 
@@ -193,7 +193,7 @@ focus = {
 	
 	focus = {
 		id = RKA_Court_Sokoto
-		icon = GFX_goal_generic_major_war
+		icon = GFX_RKA_Court_Sokoto
 		x = 2
 		y = 4
 
@@ -222,7 +222,7 @@ focus = {
 	}
 	focus = {
 		id = RKA_Send_them_Men
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_advanced_military_studies
 		x = 2
 		y = 5
 
@@ -252,7 +252,7 @@ focus = {
 	
 focus = {
 		id = RKA_The_Petainist_Remnants
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_vichy_france_triumphant_focus
 		x = 5
 		y = 3
 
@@ -281,7 +281,7 @@ focus = {
 	}
 	focus = {
 		id = RKA_Erase_Francophile_elements
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_generic_attack_vichy_france
 		x = 5
 		y = 4
 
@@ -311,7 +311,7 @@ focus = {
 	
 	focus = {
 		id = RKA_Ridicule_The_French_Situation
-		icon = GFX_goal_generic_major_war
+		icon = GFX_RKA_Ridicule_the_French_Situation
 		x = 5
 		y = 5
 
@@ -341,7 +341,7 @@ focus = {
 	
 	focus = {
 		id = RKA_The_South_Africans
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_tfv_saf_secure_interests_in_africa
 		x = 8
 		y = 3
 
@@ -371,7 +371,7 @@ focus = {
 	
 		focus = {
 		id = RKA_Our_own_Volkstaat
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_tfv_saf_support_ossebrandwag
 		x = 8
 		y = 4
 
@@ -440,7 +440,7 @@ focus = {
 	}
 	focus = {
 		id = RKA_The_One_Exception
-		icon = GFX_goal_generic_major_war
+		icon = GFX_RKA_The_One_Exception
 		x = 14
 		y = 4
 
@@ -470,7 +470,7 @@ focus = {
 	
 		focus = {
 		id = RKA_Hotline_Berlin
-		icon = GFX_goal_generic_major_war
+		icon = GFX_RKA_Hotline_Berlin
 		x = 14
 		y = 5
 
@@ -530,7 +530,7 @@ focus = {
 	
 	focus = {
 		id = RKA_Work_with_Hutting
-		icon = GFX_goal_generic_major_war
+		icon = GFX_RKA_Work_with_Huttig
 		x = 12
 		y = 5
 
@@ -592,7 +592,7 @@ focus = {
 	
 	    focus = {
 		id = RKA_Send_A_Complaint
-		icon = GFX_goal_generic_major_war
+		icon = GFX_RKA_send_a_complaint
 		x = 13
 		y = 6
 
@@ -625,7 +625,7 @@ focus = {
 	
 		    focus = {
 		id = RKA_Fall
-		icon = GFX_goal_generic_major_war
+		icon = GFX_focus_JAP_an_integrated_union
 		x = 8
 		y = 8
 

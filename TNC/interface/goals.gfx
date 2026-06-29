@@ -13,6 +13,46 @@ SpriteType = {
 	}
 	
 	SpriteType = {
+	name = "GFX_RKA_Marking_our_Enemies"
+	texturefile = "gfx/interface/goals/Marking_our_Enemies.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_RKA_Ridicule_the_French_Situation"
+	texturefile = "gfx/interface/goals/Ridicule_the_French_Situation.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_RKA_The_One_Exception"
+	texturefile = "gfx/interface/goals/The_ONE_Exception.dds"			
+	}
+	
+    SpriteType = {
+	name = "GFX_RKA_send_a_complaint"
+	texturefile = "gfx/interface/goals/send_a_complaint.dds"			
+	}
+	
+   SpriteType = {
+	name = "GFX_RKA_Is_a_nightmare"
+	texturefile = "gfx/interface/goals/nightmare.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_RKA_Hotline_Berlin"
+	texturefile = "gfx/interface/goals/Hotline_Berlin.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_RKA_Court_Sokoto"
+	texturefile = "gfx/interface/goals/court_sokoto.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_RKA_Work_with_Huttig"
+	texturefile = "gfx/interface/goals/Work_with_Huttig.dds"			
+	}
+	
+	SpriteType = {
 	name = "GFX_goal_continuous_non_factory_construct"
 	texturefile = "gfx/interface/goals/goal_continuous_non_factory_construct.dds"			
 	}	
@@ -2352,7 +2392,7 @@ SpriteType = {
 
 	SpriteType = { 
 		name = "GFX_focus_generic_vichy_france_triumphant_focus"
-		texturefile = "gfx/interface/goals/focus_generic_vichy_france_triumphant.dds"
+		texturefile = "gfx/interface/goals/Petain_dead.dds"
 	}
 
 	SpriteType = { 

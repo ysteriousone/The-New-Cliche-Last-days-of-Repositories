@@ -14,6 +14,11 @@ UKH = {
 	color = rgb { 200 140 0 }
 	color_ui = rgb { 200 140 0 }	
 }
+
+TMS = {
+	color = rgb { 58 13 99 }
+	color_ui = rgb { 58 13 99 }	
+}
 CMR = {
 	color = rgb { 13 45 0 }
 	color_ui = rgb {13 45 0 }
