@@ -345,9 +345,9 @@ set_popularities = {
 	neutrality = 44
 }
 
-set_autonomt = {
+set_autonomy = {
  target = FIU
- autonomy = autonomy_puppet
+ autonomous_state = autonomy_puppet
  }
 
 # RECRUITING HUNGARIAN CHARACTERS

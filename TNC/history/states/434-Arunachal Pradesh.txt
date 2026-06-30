@@ -22,7 +22,7 @@ state={
 		victory_points = {
 			1116 1 # Itanagar 
 		}
-	add_demilitarized_zone = yes
+	set_demilitarized_zone = yes
 
 	}
 

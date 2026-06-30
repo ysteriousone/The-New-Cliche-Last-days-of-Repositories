@@ -1,5 +1,4 @@
 ﻿capital = 202 # Kiev
-country_event = { id = ukraine.1 days 700 }
 set_stability = 0.4
 set_war_support = 0.7
 
@@ -90,8 +89,8 @@ if = {
 set_research_slots = 3
 set_convoys = 0
 
-1939.1.1 = {
-
+1945.1.1 = {
+country_event = { id = ukraine.1 days = 700 }
 	add_political_power = 1197
 	add_command_power = 100
 
@@ -166,6 +165,5 @@ add_ideas = {
 	extensive_conscription
 	UKR_A_Broken_East
 }
-
 
 
