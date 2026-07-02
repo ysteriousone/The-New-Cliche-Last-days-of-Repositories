@@ -1,0 +1,36 @@
+USA_reunification_North_US_cat = {
+
+	form_north_us = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+			always = yes
+		}
+
+		available = {
+			357 = { is_controlled_by = ROOT }
+			358 = { is_controlled_by = ROOT }
+			359 = { is_controlled_by = ROOT }
+			360 = { is_controlled_by = ROOT }
+			361 = { is_controlled_by = ROOT }
+			816 = { is_controlled_by = ROOT }
+		}
+
+		complete_effect = {
+			357 = { add_core_of = ROOT }
+			358 = { add_core_of = ROOT }
+			359 = { add_core_of = ROOT }
+			360 = { add_core_of = ROOT }
+			361 = { add_core_of = ROOT }
+			816 = { add_core_of = ROOT }
+			set_cosmetic_tag = North_US_united
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+}

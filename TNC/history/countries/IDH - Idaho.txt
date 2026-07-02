@@ -1,6 +1,8 @@
-﻿capital = 219
+﻿capital = 316
 
-OOB = "RUS_1936"
+country_event = { id = proxy.2 days = 1240 }
+
+OOB = "IDH_1945"
 
 # Starting tech
 set_technology = {

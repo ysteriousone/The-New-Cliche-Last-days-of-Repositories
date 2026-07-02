@@ -628,7 +628,12 @@ focus = {
 		icon = GFX_focus_JAP_an_integrated_union
 		x = 8
 		y = 8
-
+    available = {
+	date > 1947.1.1
+	NOT = {
+	country_exists = GER
+	}
+	}
 		cost = 2
     prerequisite = {focus = RKA_Send_A_Complaint}
 	prerequisite = {focus = RKA_Our_own_Volkstaat}

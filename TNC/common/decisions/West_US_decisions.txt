@@ -1,0 +1,30 @@
+USA_reunification_Western_US_cat = {
+
+	form_west_us = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+			always = yes
+		}
+
+		available = {
+			388 = { is_controlled_by = ROOT }
+			381 = { is_controlled_by = ROOT }
+			382 = { is_controlled_by = ROOT }
+		}
+
+		complete_effect = {
+			388 = { add_core_of = ROOT }
+			381 = { add_core_of = ROOT }
+			382 = { add_core_of = ROOT }
+			set_cosmetic_tag = West_US_united
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+}

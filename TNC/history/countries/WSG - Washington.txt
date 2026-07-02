@@ -1,6 +1,8 @@
-﻿capital = 219
+﻿capital = 361
 
-OOB = "RUS_1936"
+country_event = { id = proxy.2 days = 1240 }
+
+OOB = "WSG_1945"
 
 # Starting tech
 set_technology = {
@@ -24,3 +26,13 @@ set_popularities = {
 	communism = 5
 	neutrality = 75
 }
+
+	create_country_leader = {
+			name = "Douglas MacArthur"
+			desc = "POLITICS_MACARTHUR_DESC"
+			picture = MacArthur.dds		
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+			}
+		}

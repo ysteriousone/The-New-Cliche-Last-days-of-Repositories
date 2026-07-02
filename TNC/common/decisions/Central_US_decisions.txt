@@ -1,0 +1,38 @@
+USA_reunification_Central_US_cat = {
+
+	form_central_us = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+			always = yes
+		}
+
+		available = {
+			389 = { is_controlled_by = ROOT }
+			390 = { is_controlled_by = ROOT }
+			391 = { is_controlled_by = ROOT }
+			392 = { is_controlled_by = ROOT }
+			384 = { is_controlled_by = ROOT }
+			383 = { is_controlled_by = ROOT } 
+			373 = { is_controlled_by = ROOT }
+		}
+
+		complete_effect = {
+			389 = {add_core_of = ROOT }
+			390 = {add_core_of = ROOT }
+			391 = {add_core_of = ROOT }
+			392 = {add_core_of = ROOT }
+			384 = {add_core_of = ROOT }
+			383 = {add_core_of = ROOT } 
+			373 = { add_core_of = ROOT }
+			set_cosmetic_tag = Central_US_unified
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+}
