@@ -1,4 +1,15 @@
 ﻿l_english:
+ West_Russia_yay: "West Russian Union"
+ West_Russia_yay_DEF: "The West Russian Union"
+ West_Russia_yay_ADJ:0 "West Russian"
+ West_Russia_yay_communism: "West Russian SSR"
+ West_Russia_yay_DEF: "The West Russian SSR"
+ West_Russia_yay_neutrality: "Grand Duchy of West Russia"
+ West_Russia_yay_neutrality_DEF: "The Grand Duchy of West Russia"
+ West_Russia_yay_fascism: "Westrussisches Reich"
+ West_Russia_yay_DEF: "The West Russian Reich"
+
+
  Cascadia_united_neutrality: "Cascadia Home Base"
  Cascadia_united_neutrality_DEF: "The Cascadian Military Home Base"
  Cascadia_united: "Cascadia"
@@ -6,6 +17,7 @@
  Cascadia_united_communism: "Cascadian Soviet Republic"
  Cascadia_united_communism_DEF: "The Cascadian Soviet Republic"
  Cascadia_united_ADJ: "Cascadian"
+
  
  North_US_united: "United States of The North Coast"
  North_US_united_DEF: "The United States of the North Coast"
@@ -1892,8 +1904,8 @@
  hispaniola_neutrality: "Hispaniola"
  hispaniola_neutrality_DEF: "the State of Hispaniola"
  hispaniola_neutrality_ADJ: "Hispaniolan"
- hispaniola_fascism: "New Chiefdom of Hispaniola"
- hispaniola_fascism_DEF: "the New Chiefdom of Hispaniola"
+ hispaniola_fascism: "Santa Domingo"
+ hispaniola_fascism_DEF: "the Purified State of Santa Domingo"
  hispaniola_fascism_ADJ: "Hispaniolan"
  hispaniola_democratic: "Federation of Hispaniola"
  hispaniola_democratic_DEF: "the Federation of Hispaniola"

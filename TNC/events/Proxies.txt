@@ -55,3 +55,38 @@ type = annex_everything
  }
  
 }
+
+# Indian Independence War
+country_event = {
+	id = proxy.3
+	title = proxy.3.t
+	desc = proxy.3.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+    is_triggered_only = yes 
+	fire_only_once = yes
+
+	option = { 
+		name = proxy.1.a
+		
+    declare_war_on = {
+    target = INC
+    type = annex_everything
+}
+declare_war_on = {
+target = RAJ
+type = annex_everything
+}
+declare_war_on = {
+ target = RSS
+type = annex_everything 
+}
+
+declare_war_on = {
+ target = CPI
+ type = annex_everything
+ 
+ }
+ 
+}
+
+}
