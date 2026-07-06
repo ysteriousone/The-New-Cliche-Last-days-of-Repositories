@@ -2,7 +2,7 @@
 
 country_event = { id = proxy.2 days = 1240 }
 
-OOB = "IDH_1945"
+OOB = "IDH - 1945"
 
 # Starting tech
 set_technology = {
@@ -15,7 +15,7 @@ set_convoys = 10
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = conservative_democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -24,5 +24,15 @@ set_popularities = {
 	democratic = 0
 	fascism = 20
 	communism = 5
-	neutrality = 75
+	conservative_democratic = 75
 }
+
+create_country_leader = {
+			name = "Frank Church"
+			desc = "Frank_Church_DESC"
+			picture = Frank_Church.dds		
+			expire = "1965.1.1"
+			ideology = autocratic_populism
+			traits = {
+			}
+		}

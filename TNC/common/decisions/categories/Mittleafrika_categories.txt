@@ -1,0 +1,17 @@
+#formable_nations = {
+#
+#	icon = generic_formable_nations
+#
+#	allowed = {
+#		has_dlc = "Waking the Tiger"
+#	}
+#}
+
+The_SS_in_Africa_cat = {
+	icon = generic_political_actions
+	picture = GFX_decision_SS_in_Africa
+	
+	allowed = {
+    tag = RKA
+		}
+	}

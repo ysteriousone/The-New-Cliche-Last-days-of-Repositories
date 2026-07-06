@@ -308,7 +308,7 @@ create_faction_from_template = { template = faction_template_allies
  name = "Ottawa Charter"
  }
 add_to_faction = HAW
-
+add_to_faction = HOL
 set_convoys = 100
 set_stability = 0.75
 
