@@ -312,6 +312,8 @@ Ultranationalism  = {
 			}
 	popular_socialism = {
 			}
+	Military_socialism = {
+			}
 
 		}
 

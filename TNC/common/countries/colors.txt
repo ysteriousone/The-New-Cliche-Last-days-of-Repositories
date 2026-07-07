@@ -1076,6 +1076,11 @@ KOM = {
 	color_ui = rgb { 255 0 0 }
 }
 
+STL = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+
 UKS = {
 	color = rgb { 255 0 0 }
 	color_ui = rgb { 255 0 0 }

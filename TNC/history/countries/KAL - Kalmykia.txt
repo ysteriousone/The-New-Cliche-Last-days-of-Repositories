@@ -1,8 +1,6 @@
-﻿capital = 397 #Syktyvkar
+﻿capital = 237 #Elista
 
-country_event = { id = NRRF.1 days = 800 } 
-
-oob = "KOM_1945"
+#oob = "KAL_1936"
 
 set_research_slots = 3
 
@@ -19,12 +17,10 @@ set_technology = {
 	motorised_infantry = 1
 	paratroopers = 1
 	gw_artillery = 1
-	naval_bomber1 = 1
 }
 
 set_grand_doctrine = mass_assault
 set_grand_doctrine = new_fleet_in_being
-
 
 if = {
 	limit = {
@@ -38,10 +34,11 @@ if = {
 		naval_bomber1 = 1
 	}
 }
-
 if = {
 	limit = {
-		NOT = { has_dlc = "No Step Back" }
+		NOT = {
+			has_dlc = "No Step Back"
+		}
 	}
 	set_technology = {
 		gwtank = 1
@@ -50,7 +47,9 @@ if = {
 }
 if = {
 	limit = {
+		
 		has_dlc = "No Step Back"
+		
 	}
 	set_technology = {
 		gwtank_chassis = 1
@@ -88,29 +87,24 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = communism
-	last_election = "1945.1.1"
+	ruling_party = democratic
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 50
+	democratic = 60
 	fascism = 10
-	communism = 40
+	communism = 20
+	neutrality = 10
 }
 
+recruit_character = KAL_im_badmayev
+recruit_character = KAL_nikolai_tundutov
 
-create_country_leader = {
-			name = "Kilment Voroshilov"
-			desc = "VOROSHILOV_DESC"
-			picture = Kilment_Voroshilov.dds		
-			expire = "1965.1.1"
-			ideology = marxism
-			traits = {
-			}
-		}
 
-recruit_character = KOM_Zhukov
-recruit_character = KOM_Supreme_Soviet
+
+
+
 

@@ -1,8 +1,6 @@
-﻿capital = 397 #Syktyvkar
+﻿capital = 217 #Syktyvkar
 
-country_event = { id = NRRF.1 days = 800 } 
-
-oob = "KOM_1945"
+oob = "STL-1945"
 
 set_research_slots = 3
 
@@ -89,9 +87,9 @@ if = {
 }
 set_politics = {
 	ruling_party = communism
-	last_election = "1945.1.1"
+	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
@@ -101,16 +99,4 @@ set_popularities = {
 }
 
 
-create_country_leader = {
-			name = "Kilment Voroshilov"
-			desc = "VOROSHILOV_DESC"
-			picture = Kilment_Voroshilov.dds		
-			expire = "1965.1.1"
-			ideology = marxism
-			traits = {
-			}
-		}
-
-recruit_character = KOM_Zhukov
-recruit_character = KOM_Supreme_Soviet
 

@@ -8,6 +8,7 @@ state = {
 	history = {
 
 		owner = RKK
+		add_core_of = STL
 
 		victory_points = {
 			3529 30 # Stalingrad

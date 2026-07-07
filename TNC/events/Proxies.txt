@@ -90,3 +90,84 @@ declare_war_on = {
 }
 
 }
+
+
+# Italian Civil War
+country_event = {
+	id = proxy.4
+	title = proxy.4.t
+	desc = proxy.4.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+    is_triggered_only = yes 
+	fire_only_once = yes
+
+	option = { 
+		name = proxy.1.a
+    ITA = {
+	leave_faction = yes
+	}
+FIU = {
+    set_autonomy = {
+        target = FIU
+        autonomy_state = autonomy_free
+    }
+}
+	ITA = {
+	declare_war_on = {
+	target =  TTS
+	type = annex_everything 
+	}
+	declare_war_on = {
+	target = SME
+	type = annex_everything
+	}
+	declare_war_on  = {
+	target = LBV
+	type = annex_everything
+	}
+	declare_war_on = {
+	target = FIU
+	type = annex_everything
+	}
+	
+	}
+	
+TTS = {
+	declare_war_on = {
+	target = SME
+	type = annex_everything
+	}
+	declare_war_on  = {
+	target = LBV
+	type = annex_everything
+	}
+	declare_war_on = {
+	target = FIU
+	type = annex_everything
+	}
+	
+	}
+	
+SME = {
+	declare_war_on  = {
+	target = LBV
+	type = annex_everything
+	}
+	declare_war_on = {
+	target = FIU
+	type = annex_everything
+	}
+	
+	}
+	
+LBV = {
+	declare_war_on = {
+	target = FIU
+	type = annex_everything
+	}
+	
+	}
+ 
+}
+
+}

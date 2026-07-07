@@ -1,5 +1,7 @@
 ﻿capital = 231 # Tbilisi
 
+country_event = { id = caucasus.1 days = 760 }
+
 set_stability = 0.4
 set_war_support = 0.7
 

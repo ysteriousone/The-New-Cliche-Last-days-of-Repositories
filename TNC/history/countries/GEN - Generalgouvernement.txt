@@ -1,5 +1,8 @@
 capital = 88 # Krakow
 
+country_event = { id = poland.1 days = 830 }
+
+
 set_stability = 0.4
 set_war_support = 0.7
 

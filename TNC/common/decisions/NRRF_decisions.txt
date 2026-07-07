@@ -1,0 +1,26 @@
+KOM_The_New_Red_Army = {
+
+	recruit_local_populations = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = no
+
+		visible = {
+	has_completed_focus = KOM_attempt_recruitment_drives
+		}
+	days_re_enable = 60
+
+		available = {
+    has_completed_focus = KOM_attempt_recruitment_drives
+		}
+
+		complete_effect = {
+    add_manpower = 1000
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+}

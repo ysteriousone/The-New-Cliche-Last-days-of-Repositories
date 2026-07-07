@@ -1,13 +1,13 @@
 ﻿l_english:
  West_Russia_yay: "West Russian Union"
  West_Russia_yay_DEF: "The West Russian Union"
- West_Russia_yay_ADJ:0 "West Russian"
+ West_Russia_yay_ADJ: "West Russian"
  West_Russia_yay_communism: "West Russian SSR"
  West_Russia_yay_DEF: "The West Russian SSR"
  West_Russia_yay_neutrality: "Grand Duchy of West Russia"
  West_Russia_yay_neutrality_DEF: "The Grand Duchy of West Russia"
  West_Russia_yay_fascism: "Westrussisches Reich"
- West_Russia_yay_DEF: "The West Russian Reich"
+ West_Russia_yay_fascism_DEF: "The West Russian Reich"
 
 
  Cascadia_united_neutrality: "Cascadia Home Base"
