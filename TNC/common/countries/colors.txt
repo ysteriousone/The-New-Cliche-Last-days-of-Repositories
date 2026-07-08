@@ -85,6 +85,26 @@ GER = {
 	color_ui = rgb {0 0 0 }
 }
 
+GMJ = {
+	color = rgb { 48 48 48 }
+	color_ui = rgb {48 48 48}
+}
+
+BGR = {
+	color = rgb { 54 54 54 }
+	color_ui = rgb { 115 115 115 }
+}
+
+KAI = {
+	color = rgb { 160 160 160 }
+	color_ui = rgb { 115 115 115 }
+}
+
+ZZZ = {
+	color = rgb { 0 0 0  }
+	color_ui = rgb {0 0 0 }
+}
+
 ZLT = {
 	color = rgb { 255 178 127 }
 	color_ui = rgb { 255 178 127 }
@@ -748,10 +768,10 @@ PAK = {
 #    color = rgb { 195 236 230 } # The colors are set to be more are less what we are used to
 #    color_ui = rgb { 225 255 255 }
 #}
-#DDR = {
-#    color = rgb { 120 150 80 }
-#    color_ui = rgb { 150 180 120 }
-#}
+DDR = {
+    color = rgb { 175 20 60  }
+    color_ui = rgb { 175 20 60  }
+}
 KOR = {
 	color = rgb { 255  240  195 }
 	color_ui = rgb { 255 248 229 }	

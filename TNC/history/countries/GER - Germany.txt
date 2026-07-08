@@ -1,4 +1,4 @@
-﻿
+﻿country_event = { id = ger.1 days = 800 }
 capital = 64 # Berlin/Brandeburg
 
 if = {

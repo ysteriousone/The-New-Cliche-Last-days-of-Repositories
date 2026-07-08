@@ -106,11 +106,6 @@ country_event = {
     ITA = {
 	leave_faction = yes
 	}
-FIU = {
-    set_autonomy = {
-        target = FIU
-        autonomy_state = autonomy_free
-    }
 }
 	ITA = {
 	declare_war_on = {
@@ -123,10 +118,6 @@ FIU = {
 	}
 	declare_war_on  = {
 	target = LBV
-	type = annex_everything
-	}
-	declare_war_on = {
-	target = FIU
 	type = annex_everything
 	}
 	

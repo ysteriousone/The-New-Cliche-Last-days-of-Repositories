@@ -17,6 +17,7 @@ country_event = {
 		name = NRRF.1.a  
    retire_country_leader = yes
    promote_character = SOV_Supreme_Soviet
+   load_focus_tree = NRRF_pre-Regional
 }
 
 

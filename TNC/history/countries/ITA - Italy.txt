@@ -1,5 +1,5 @@
 ﻿capital = 2 # Rome
-
+country_event = { proxy.4 days = 1520 }
 ETH_set_up_lon_arms_resolution_effect = yes 
 
 if = {

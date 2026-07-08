@@ -3,8 +3,6 @@ country_event = {
 	id = proxy.3
 	days = 735
 }
-
-recruit_character = ENG_winston_churchill
 if = {
 	limit = {
 		has_dlc = "Graveyard of Empires"
@@ -313,6 +311,16 @@ set_popularities = {
 	fascism = 2
 	communism = 1
 	neutrality = 80
+}
+
+create_country_leader = {
+	name = "Winston Churchill"
+	desc = "OSTER_DESC"
+	picture = Portrait_Britain_Winston_Churchill.dds
+	expire = "1965.1.1"
+	ideology = colonial_dictatorship
+	traits = {
+	}
 }
 
 if = {
