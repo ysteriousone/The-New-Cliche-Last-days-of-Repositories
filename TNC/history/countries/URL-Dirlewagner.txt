@@ -1,11 +1,11 @@
 ﻿capital = 219
 
-OOB = "HYP_1945"
+OOB = "URL_1945"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	camelry = 1
+	infantry_weapons1 = 1
 }
 
 add_manpower = 15000
