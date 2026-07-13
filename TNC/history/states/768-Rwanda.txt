@@ -11,17 +11,7 @@ state = {
 
 	history = {
 
-		owner = BEL
-
-		IF = {
-			limit = {
-				has_dlc = "Gotterdammerung"
-			}
-			transfer_state_to = RKA
-			add_dynamic_modifier = {
-				modifier = COG_rwandan_separatism_modifier
-			}	
-		}
+		owner = RKA
 
 		add_core_of = RWA
 
