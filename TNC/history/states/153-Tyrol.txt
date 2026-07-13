@@ -3,7 +3,8 @@ state={
 	id=153
 	name="STATE_153"
 	history={
-		owner = AUS
+		owner = GER
+		add_core_of = GER
 		victory_points = {
 			673 5 
 		}
@@ -13,11 +14,11 @@ state={
 			air_base = 3
 		}
 		add_core_of = AUS
-		1938.3.12 = {
-			owner = GER
-			controller = GER
-			add_core_of = GER
-		}
+		#1938.3.12 = {
+		#	owner = GER
+		#	controller = GER
+		#	add_core_of = GER
+		#}
 	}
 	provinces={
 		668 671 673 3675 6673 9633 9636 11618 11634 
