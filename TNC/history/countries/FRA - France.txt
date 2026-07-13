@@ -2,6 +2,13 @@
 
 starting_train_buffer = 2
 
+add_ideas = TNC_bitter_loser
+add_ideas = TNC_rampant_corruption
+add_ideas = TNC_french_mafia
+add_ideas = TNC_the_jewish_haven
+add_ideas = TNC_bastion_of_western_socialism
+add_ideas = TNC_the_artists_state
+
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "FRA_1936_naval_mtg"
@@ -171,7 +178,6 @@ if = {
 		basic_dp_light_battery = 1
 		#cruiser_submarines = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
 }
 
 
