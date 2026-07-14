@@ -13,6 +13,7 @@ set_technology = {
 add_manpower = 15000
 set_convoys = 10
 
+recruit_character = ZLT_yevgeny_dragunov
 
 set_politics = {
 	ruling_party = Capitalism

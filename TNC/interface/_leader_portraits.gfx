@@ -9184,4 +9184,9 @@ spriteTypes = {
 	}
 
 
+	## ZLT ##
+	spriteType = {
+		name = "GFX_portrait_ZLT_yevgeny_dragunov"
+		texturefile = "gfx/leaders/ZLT/ZLT_yevgeny_dragunov.png"
+	}
 }
