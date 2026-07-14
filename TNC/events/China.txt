@@ -1,0 +1,143 @@
+﻿###########################
+# china Events
+###########################
+
+add_namespace = china
+
+# ROC faction forms
+country_event = {
+	id = china.1
+	title = china.1.t
+	desc = china.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Alan we are so cooked
+		name = china.1.a  
+    
+ RNG = {
+ create_faction_from_template = { template = faction_template_wang_front 
+ name = "Constitution Protection Convention"
+ }
+ add_to_faction = ANH
+ add_to_faction =HNN
+ add_to_faction = LIN
+ }
+ MAN = {
+ country_event = { id = china.2 days = 6 }
+}
+
+
+ news_event = { id = world.1 days = 1 }
+
+
+}
+
+}
+
+
+# Qing Faction forms
+country_event = {
+	id = china.2
+	title = china.2.t
+	desc = china.2.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Alan we are so cooked
+		name = china.1.a  
+    
+ MAN = {
+ create_faction_from_template = { template = faction_template_regional_anti_democratic 
+ name = "Qing Restoration Army"
+ }
+ add_to_faction = SND
+ add_to_faction = HBC
+ add_to_faction = KOR
+ }
+ CHI = { country_event = { id = china.3 days = 10 }
+ }
+}
+
+
+}
+
+# Chiang Faction forms
+country_event = {
+	id = china.3
+	title = china.3.t
+	desc = china.3.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Alan we are so cooked
+		name = china.1.a  
+    
+ CHI = {
+ create_faction_from_template = { template = faction_template_chinese_united_front }
+ name = "Imperial National Alliance"
+ add_to_faction = GUI
+ add_to_faction = SHX
+ add_to_faction = GDC
+ }
+ YUN = {
+ country_event = { id = china.4 days = 2 }
+ }
+ PRC = {
+ country_event = { id = china.5 days = 10 }
+}
+
+
+}
+
+}
+
+# NPA forms
+country_event = {
+	id = china.4
+	title = china.4.t
+	desc = china.4.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Alan we are so cooked
+		name = china.1.a  
+    
+ YUN = {
+ set_cosmetic_tag = YUN_NPA
+ }
+}
+
+
+}
+
+# CCP faction forms
+country_event = {
+	id = china.5
+	title = china.5.t
+	desc = china.5.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Alan we are so cooked
+		name = china.1.a  
+    
+ PRC = {
+ create_faction_from_template = { faction_template_fourth_international }
+  name = "Treaty of National Liberation"
+  add_to_faction = YUN
+  add_to_faction = GXC
+ }
+}
+
+
+}
+
+
+
+

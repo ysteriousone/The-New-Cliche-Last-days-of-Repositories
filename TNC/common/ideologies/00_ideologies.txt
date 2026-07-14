@@ -115,6 +115,9 @@ Ultranationalism  = {
 
 		fiume_acceleration  = {
 			}
+			
+	Accelerationism  = {
+			}
 
 
 		}

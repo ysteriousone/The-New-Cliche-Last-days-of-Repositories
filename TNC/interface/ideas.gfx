@@ -21,10 +21,35 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
-        name = "UKR_A_Broken_East"
+        name = "GFX_idea_UKR_A_Broken_East"
         texturefile = "gfx/interface/ideas/A_Broken_East.dds"
     }
 	
+    spriteType = {
+        name = "GFX_idea_TNC_french_mafia-1"
+        texturefile = "gfx/interface/ideas/French_Mafia.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_idea_TNC_bitter_loser-1"
+        texturefile = "gfx/interface/ideas/Bitter_loser.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_idea_TNC_the_jewish_haven"
+        texturefile = "gfx/interface/ideas/Jewish_Haven.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_idea_TNC_the_artists_state-1"
+        texturefile = "gfx/interface/ideas/Artist_State.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_idea_TNC_rampant_corruption-1"
+        texturefile = "gfx/interface/ideas/Rampant_Corruption.dds"
+    
+	}
 	spriteType = {
 		name = "GFX_idea_raj_all_india_forward_bloc"
 		texturefile = "gfx/interface/ideas/idea_raj_all_india_forward_bloc.dds"

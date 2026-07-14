@@ -229,4 +229,12 @@ create_faction_from_template = { template = faction_template_comintern
  add_to_faction = SPR
  add_to_faction = MEX
 
-recruit_character = FRA_picasso
+create_country_leader = {
+	name = "Pablo Picasso"
+	desc = "OSTER_DESC"
+	picture = Picasso.dds
+	expire = "1965.1.1"
+	ideology = Accelerationism
+	traits = {
+	}
+}

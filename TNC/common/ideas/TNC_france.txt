@@ -39,7 +39,7 @@ conscription_factor = 0.35
 		}
 
 		TNC_bastion_of_western_socialism = {
-			picture = TNC_bastion_of_western_socialism-1
+			picture = fourth_international
 			modifier = {
 				war_support_factor = 0.25
 war_stability_factor = 0.15
