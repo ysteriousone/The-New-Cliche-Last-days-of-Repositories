@@ -16,5 +16,29 @@ focus_tree = {
 		x = 76
 		y = 0
 	}
-	
+	focus = {
+		id = GER_focus_denying_politics
+		icon = GFX
+		x = 1
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 25
+		}
+	}
 }
