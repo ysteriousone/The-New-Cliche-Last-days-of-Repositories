@@ -1,4 +1,4 @@
-version="DEMO"
+version="1.0"
 tags={
 	"Alternative History"
 	"Technologies"
@@ -10,4 +10,4 @@ replace_path = "common/national_focus"
 replace_path = "events"
 replace_path = "map"
 name="TNC"
-supported_version="1.18.0.0"
+supported_version="1.19.*"
