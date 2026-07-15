@@ -114,6 +114,8 @@ focus_tree = {
 	prerequisite = { focus = KOM_Another_1917 }
 		completion_reward = {
 		}
+		
+	}
 	
 	focus = {
 		id = KOM_break_open_the_Factories
@@ -235,4 +237,67 @@ focus = {
 		}
 	}
 	
+	focus = {
+		id = KOM_Coronation_of_The_Chief
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 7
+		y = 3
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+	available = {
+	always = no 
+	}
+	prerequisite = { focus = KOM_and_time_for_another }
+
+		completion_reward = {
+	retire_character = KOM_Supreme_Soviet
+		}
+	}
+	
+	focus = {
+		id = KOM_Empathy_Victorious
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 5
+		y = 1
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+	available = {
+	always = no
+	}
+	prerequisite = { focus = KOM_and_time_for_another}
+
+		completion_reward = {
+	retire_character = KOM_Supreme_Soviet
+		}
+	}
+	
+	focus = {
+		id = KOM_Army_of_the_People
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 5
+		y = -1
+		cost = 3
+		ai_will_do = {
+			factor = 1
+		}
+	available = {
+	always = no
+	}
+	prerequisite = { focus = KOM_and_time_for_another}
+
+		completion_reward = {
+	retire_character = KOM_Supreme_Soviet
+		}
+	}
+	
+
+
+
 }

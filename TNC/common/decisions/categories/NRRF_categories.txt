@@ -14,3 +14,11 @@ KOM_The_New_Red_Army = {
     tag = KOM
 	}
 }
+
+KOM_power_struggle = {
+	icon = generic_political_actions
+	
+	allowed = {
+    tag = KOM
+	}
+}

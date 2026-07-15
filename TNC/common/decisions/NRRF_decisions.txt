@@ -24,3 +24,91 @@ KOM_The_New_Red_Army = {
 	}
 
 }
+
+
+
+
+KOM_power_struggle = {
+
+	increase_Beriya_influence = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = no
+
+		visible = {
+	has_completed_focus = KOM_and_time_for_another
+		}
+	days_re_enable = 25
+
+		available = {
+    has_completed_focus = KOM_Beriya_Mania
+		}
+
+		complete_effect = {
+    			add_popularity = {
+				ideology = Schizo_Communism
+				popularity = 0.05
+			}
+			
+	    		add_popularity = {
+				ideology = Popular_Socialism
+				popularity = -0.05
+			}
+	    	   add_popularity = {
+				ideology = communism
+				popularity = -0.05
+			}
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	
+	increase_Zhukov_influence = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = no
+
+		visible = {
+	has_completed_focus = KOM_and_time_for_another
+		}
+	days_re_enable = 25
+
+		available = {
+    has_completed_focus = KOM_Zhukovs_plan
+		}
+
+		complete_effect = {
+    add_manpower = 1000
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	
+	increase_Rokossovsky_influence = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = no
+
+		visible = {
+	has_completed_focus = KOM_and_time_for_another
+		}
+	days_re_enable = 25
+
+		available = {
+    has_completed_focus = KOM_Rokossovskys_idea
+		}
+
+		complete_effect = {
+    add_manpower = 1000
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+}
