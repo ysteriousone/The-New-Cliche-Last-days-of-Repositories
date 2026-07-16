@@ -24,3 +24,15 @@ set_popularities = {
 	communism = 5
 	neutrality = 75
 }
+
+
+	create_country_leader = {
+			name = "Oskar Dirlewanger "
+			desc = "POLITICS_DIRLEWANGER_DESC"
+			picture = Dirlewagner.dds		
+			expire = "1965.1.1"
+			ideology = Dirlewanger_Thought
+			traits = {
+				dictator
+			}
+		}

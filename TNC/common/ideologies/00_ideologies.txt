@@ -605,6 +605,9 @@ Ultranationalism  = {
 
 			gen_nazism = {
 			}
+			
+        	Dirlewanger_Thought = {
+			}			
 
 			fascism_ideology = {
 			}
