@@ -15,9 +15,9 @@ focus_tree = {
 		y = 0
 	}
 	focus = {
-		id = GER_focus_denying_politics
-		icon = GFX
-		x = 10
+		id = GER_focus_aubenpolitik
+		icon = GFX_focus_GER_weltpolitik
+		x = 20
 		y = 0
 		cost = 2
 		ai_will_do = {
@@ -37,70 +37,10 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 25
+			add_ideas = GER_aubenpolitik
 		}
 	}
 	focus = {
-		id = GER_focus_ss_negotiations
-		icon = GFX
-		relative_position_id = GER_focus_denying_politics
-		x = -1
-		y = 1
-		prerequisite = {
-			focus = GER_focus_denying_politics
-		}
-		mutually_exclusive = {
-			focus = GER_focus_crackdown_on_ss_officers
-		}
-		cost = 2
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-
-		}
-	}
-	focus = {
-		id = GER_focus_crackdown_on_ss_officers
-		icon = GFX
-		relative_position_id = GER_focus_denying_politics
-		x = 1
-		y = 1
-		prerequisite = {
-			focus = GER_focus_denying_politics
-		}
-		mutually_exclusive = {
-			focus = GER_focus_ss_negotiations
-		}
-		cost = 2
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-
-		}
+		id = GER_focus_
 	}
 }
