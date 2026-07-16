@@ -256,6 +256,42 @@ add_to_faction = IRQ
 add_to_faction = RKB
 add_to_faction = RKA
 
+	set_autonomy = {
+		target = SLO
+		autonomous_state = autonomy_puppet
+	}
+	
+		set_autonomy = {
+		target = RKO
+		autonomous_state = autonomy_reichskommissariat
+	}
+	
+			set_autonomy = {
+		target = RKU
+		autonomous_state = autonomy_reichskommissariat
+	}
+	
+			set_autonomy = {
+		target = RKM
+		autonomous_state = autonomy_reichskommissariat
+	}
+	
+			set_autonomy = {
+		target = RKK
+		autonomous_state = autonomy_reichskommissariat
+	}
+	
+			set_autonomy = {
+		target = NOR
+		autonomous_state = autonomy_reichskommissariat
+	}
+	
+			set_autonomy = {
+		target = GEN
+		autonomous_state = autonomy_reichskommissariat
+	}
+	
+
 # Setup of National Spirits
 add_ideas = {
 	GER_endsieg

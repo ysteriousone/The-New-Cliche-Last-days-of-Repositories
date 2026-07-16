@@ -1,10 +1,12 @@
 ﻿capital = 397 #Syktyvkar
 
-country_event = { id = NRRF.1 days = 800 } 
+country_event = { id = NRRF.1 days = 815 } 
 
 oob = "KOM_1945"
 
 set_research_slots = 3
+
+add_manpower = 4000
 
 # Starting tech
 set_technology = {
@@ -103,10 +105,20 @@ set_popularities = {
 
 create_country_leader = {
 			name = "Kilment Voroshilov"
-			desc = "VOROSHILOV_DESC"
+			desc = VOROSHILOV_DESC
 			picture = Kilment_Voroshilov.dds		
 			expire = "1965.1.1"
 			ideology = marxism
+			traits = {
+			}
+		}
+		
+create_country_leader = {
+			name = "Lavrenty Beria"
+			desc = "BERIYA_Desc"
+			picture = Beriya.dds		
+			expire = "1965.1.1"
+			ideology = NKVD_Reformism
 			traits = {
 			}
 		}

@@ -1,4 +1,4 @@
-West_Russian_unification = {
+West_Russian_unification_cat = {
 
 	unite_West_Russia = {
 		icon = generic_industry

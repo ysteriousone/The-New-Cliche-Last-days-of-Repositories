@@ -1,0 +1,166 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = ural_brigade_initial
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = URL
+		}
+	}
+	default = no
+
+
+	focus = {
+		id = URL_Status_of_the_Economy
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 6
+		y = 0
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_What_Economy
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 6
+		y = 1
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+    prerequisite = {
+	focus = URL_Status_of_the_Economy
+	}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_raids
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 6
+		y = 1
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+    prerequisite = {
+	focus = URL_Status_of_the_Economy
+	}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_Take_Loans_from_Maurice
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 4
+		y = 2
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+		
+	mutually_exclusive = {
+	focus = URL_Establish_the_Dirlewanger_bank }
+	prerequisite = {
+	focus = URL_What_Economy
+	}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_establish_a_currency
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 4
+		y = 3
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+	prerequisite = {
+	focus = URL_Take_Loans_from_Maurice
+	}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_Sell_Mercs_to_Germany
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 4
+		y = 4
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+	prerequisite = {
+	focus = URL_establish_a_currency
+	}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_Establish_the_Dirlewanger_bank
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 8
+		y = 2
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+	prerequisite = {
+	focus = URL_What_Economy
+	}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_Pay_for_your_Freedom
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 8
+		y = 3
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+	prerequisite = {
+	focus = URL_Establish_the_Dirlewanger_bank
+	}
+
+		completion_reward = {
+		}
+	}
+
+
+}
