@@ -1,5 +1,6 @@
 ﻿l_english:
- -IDEAS-
+
+ ######IDEAS 
  KAI_bismarcks_movement:0 "Bismarck's Movement"
  KAI_bismarcks_movement_good:0 "Bismarck's Movement"
  KAI_bismarcks_movement_bad:0 "Bismarck's Movement"
@@ -8,9 +9,14 @@
  KAI_socialist_gangsters:0 "Socialist Gangsters"
  KAI_peoples_king:0 "The People's King"
 
- -FOCUSES-
+
+ ########FOCUSES
 
 
- -EVENTS-
+ #########EVENTS
 
- -DECISIONS-
+
+#########DECISIONS
+
+
+#########CHARACTERS
