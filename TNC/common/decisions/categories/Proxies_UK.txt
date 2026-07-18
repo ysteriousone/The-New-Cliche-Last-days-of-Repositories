@@ -1,0 +1,26 @@
+#formable_nations = {
+#
+#	icon = generic_formable_nations
+#
+#	allowed = {
+#		has_dlc = "Waking the Tiger"
+#	}
+#}
+
+Malayan_insurgency_cat = {
+	icon = generic_political_actions
+	
+	allowed = {
+	tag = ENG
+	}
+}
+
+
+Hispaniola_war_cat = {
+  icon = generic_political_actions
+  
+  allowed = {
+   tag = ENG
+    }
+	
+ }
