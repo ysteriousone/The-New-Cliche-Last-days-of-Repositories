@@ -72,9 +72,9 @@ ideas = {
 			}
 			picture = PRC_hundred_regiments_offensive
 			modifier = {
-				communist_drift = 0.01
-				Popular_Socialism = 0.01
-				Schizo_Communism = 0.01
+				communism_drift = 0.01
+				Popular_Socialism_drift = 0.01
+				Schizo_Communism_drift = 0.01
 				political_power_gain = -0.05
 				stability_factor = -0.15
 				conscription_factor = -0.05
