@@ -1,5 +1,7 @@
 capital = 126
 
+country_event = { id = eng.1 days = 700  }
+
 if = {
 	limit = {
 		NOT = {
@@ -512,7 +514,7 @@ if = {
 
 set_politics = {
 	ruling_party = fascism
-	last_election = "1935.11.14"
+	last_election = "1945.11.14"
 	election_frequency = 48
 	elections_allowed = yes ##suspended through duration of war, which is handled via event
 }
@@ -540,7 +542,6 @@ add_to_faction = POR
 add_to_faction = EGY
 
 
-# Order matters - here Chamberlain becomes starting leader
 recruit_character = ENG_oswald_mosley
 recruit_character = ENG_stanley_baldwin
 recruit_character = ENG_winston_churchill
