@@ -3,6 +3,9 @@ sp_event_Russian_Unification_POL:0 "Russian 'Unification'"
 sp_event_Russian_Unification_POL_QUOTE:0 "Hello Hello! Can you hear us? We are broadcasting the last Polish radio communication. Today, German troops entered Warsaw. We send brotherly greetings for Polish soldiers fighting at hel peninsula, and anybody fighting whatsoever, regardless of the place. Poland is Not Yet lost! Long Live for Poland \n- Final Polish Brodcast,1939"
 sp_event_Russian_Unification_POL_REMARK:0 "What a strange bunch"
 
+sp_event_Russian_Unification_KDT:0 "Russian Unification"
+sp_event_Russian_Unification_KDT_QUOTE:0 "There is no justice among men. \n- Nicholas II"
+sp_event_Russian_Unification_KDT_REMARK:0 "Render onto Tsar.."
 
 sp_event_Second_World_War:0 "The Second World War"
 sp_event_Second_World_War_QUOTE:0 "Those who want to live, let them fight, and those who do not want to fight in this world of eternal struggle do not deserve to live. \n- Adolf Hitler"

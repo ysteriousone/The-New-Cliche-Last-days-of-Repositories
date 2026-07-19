@@ -22,6 +22,12 @@ guiTypes = {
 		}
 		
 		iconType = {
+			name = "Super_Event_Image_Russian_Unification_KDT"
+			spriteType = "GFX_sp_event_Russian_Unification_KDT"
+			position = {x = 0 y = 0}
+		}
+		
+		iconType = {
 			name = "Super_Event_Image_Russian_Unification_Polish"
 			spriteType = "GFX_sp_event_Russian_Unification_Polish"
 			position = {x = 0 y = 0}

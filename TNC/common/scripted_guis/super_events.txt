@@ -121,6 +121,12 @@ scripted_gui = {
 			}
 		}
 		
+	    triggers = {
+			Russian_unification_KDT_visible = {
+				has_global_flag = RUS_KDT
+			}
+		}
+		
 		#############
 		###BRITISH###
 		#############
@@ -384,6 +390,13 @@ scripted_gui = {
 						has_global_flag = RUS_POL
 					}
 					clr_global_flag = RUS_POL
+				}
+				
+			if = {
+					limit = {
+						has_global_flag = RUS_KDT
+					}
+					clr_global_flag = RUS_KDT
 				}
 				
 				if = {

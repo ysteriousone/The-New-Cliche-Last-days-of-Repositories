@@ -1928,3 +1928,28 @@ country_event = {	# Russian Unification - Nowa Polksa
 		play_song = "super_russian_unification_pol"
 	}
 }
+
+country_event = {	# Russian Unification - Nowa Polksa
+	id = super.55
+	title = super.55.t
+	desc = super.55.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = no
+	
+	fire_only_once = yes
+	
+	hidden = yes
+	
+	trigger = {
+		has_global_flag = RUS_KDT
+	}
+	
+	option = {
+		name = super.54.a
+		
+        set_global_flag = RUS_KDT
+		set_global_flag = Super_Event_Visible
+		play_song = "super_russian_unification_Kadets"
+	}
+}

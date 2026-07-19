@@ -9,6 +9,13 @@ defined_text = {
         localization_key = "sp_event_Russian_Unification_POL"
     }
 	
+	text = {
+        trigger = {
+            has_global_flag = RUS_KDT
+        }
+        localization_key = "sp_event_Russian_Unification_KDT"
+    }
+	
     text = {
         trigger = {
             has_global_flag = GER_WW2
@@ -419,6 +426,13 @@ defined_text = {
         localization_key = "sp_event_Russian_Unification_POL_REMARK"
     }
 	
+	text = { 
+        trigger = {
+            has_global_flag = RUS_KDT
+        }
+        localization_key = "sp_event_Russian_Unification_KDT_REMARK"
+    }
+	
 	text = {
         trigger = {
             has_global_flag = JAP_Sino_Japanese
@@ -820,6 +834,13 @@ defined_text = {
             has_global_flag = RUS_POL
         }
         localization_key = "sp_event_Russian_Unification_POL_QUOTE"
+    }
+	
+	text = {
+        trigger = {
+            has_global_flag = RUS_KDT
+        }
+        localization_key = "sp_event_Russian_Unification_KDT_QUOTE"
     }
 	
 	text = {
