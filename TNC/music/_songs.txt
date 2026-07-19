@@ -36,6 +36,18 @@ music = {
 }
 
 music = {
+	song = "super_russian_unification_pol"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
 	song = "general_peace_2"
 	
 	chance = {

@@ -1,4 +1,9 @@
 ﻿l_english:
+ STATE_1061: "Kedah"
+ STATE_1065: "Penang Port"
+ STATE_1064: "Perak"
+ STATE_1063: "Terengganu"
+ STATE_1062: "Kelantan"
  STATE_1:0 "Corsica"
  STATE_2:1 "Lazio"
  STATE_3:1 "Swiss Plateau"
