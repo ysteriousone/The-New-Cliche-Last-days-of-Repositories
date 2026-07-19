@@ -9,6 +9,16 @@ spriteTypes = {
 		name = "GFX_news_Russian_Unification_Poland"
 		texturefile = "gfx/event_pictures/event_Polish_unifcation_of_Russia.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_news_German_Civil_War"
+		texturefile = "gfx/event_pictures/event_German_Civil_War.dds"
+	}
+	
+    spriteType = {
+		name = "GFX_news_GCW_Kaiserboos"
+		texturefile = "gfx/event_pictures/GCW_monarchist_victory.dds"
+	}
 
 	spriteType = {
 		name = "GFX_report_event_generic_funeral"

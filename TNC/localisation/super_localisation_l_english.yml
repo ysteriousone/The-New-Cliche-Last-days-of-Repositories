@@ -104,17 +104,17 @@ sp_event_German_Civil_War:0 "The German Civil War"
 sp_event_German_Civil_War_QUOTE:0 "It is almost certain that we will fail. But how will future history judge the German people if not even a handful of men had the courage to put an end to that criminal? \n- Henning von Tresckow"
 sp_event_German_Civil_War_REMARK:0 "So it Begins"
   
-sp_event_Kaiser_Returns:0 "Return of the Kaiser"
-sp_event_Kaiser_Returns_QUOTE:0 "I know no parties anymore, only Germans! \n- Wilhelm II"
-sp_event_Kaiser_Returns_REMARK:0 "He wasn't gone for long"
+sp_event_Kaiser_Returns:0 "Kaiserboos win the Civil War"
+sp_event_Kaiser_Returns_QUOTE:0 " Looking back over the last hundred years and seeing the fervent desire for war and the sadistic means in which armies murdered their way to bitter victory, we have to grimly conclude that the Great War never ended. The nightmare continued. \n- W. Scott Poole "
+sp_event_Kaiser_Returns_REMARK:0 "What was The Great War for then?"
   
 sp_event_German_Democracy:0 "Democracy in Germany"
 sp_event_German_Democracy_QUOTE:0 "Without democracy there is no freedom. Violence, no matter who is using it, is always reactionary. \n- Friedrich Ebert"
 sp_event_German_Democracy_REMARK:0 "A Second Chance"
   
-sp_event_Endsieg:0 "Endsieg"
+sp_event_Endsieg:0 "German Civil War"
 sp_event_Endsieg_QUOTE:0 "Germany will either be a world power or there will be no Germany. \n- Adolf Hitler"
-sp_event_Endsieg_REMARK:0 "Über Alles"
+sp_event_Endsieg_REMARK:0 "End Niederlage"
   
 sp_event_Fall_France:0 "Fall of France"
 sp_event_Fall_France_QUOTE:0 "France has lost a battle, but France has not lost the war. \n- Charles de Gaulle"

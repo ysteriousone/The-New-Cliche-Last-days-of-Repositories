@@ -5,9 +5,21 @@
  world.1.desc: "Following re-armament and reconstruction programs, The Republic of China has announced the new alliance formed by it and various like-minded Chinese warlords. A "Constituional Protection" convention has formed earlier today in Nanking, promising to restore the values laid out by old Koumintang leader, the late Sun-Yat-Sen. Of course, this has sparked several conspicious eyes across all of fractured China. Reportedly, the Qing are also preparing for their own  'Army of National Liberation'. Whatever new development will happen remains to be seen."
  world.1.a: "All loud on the Eastern front..."
  
+ world.2.t: "Mosley Wins in Malaya!"
+ world.2.desc: “Earlier today, the London BBC reopened its World Service for a special broadcast, designed as a proclamation of victory ‘over the forces of cabalism and Judeo-Bolshevik influence in Malaya’. This news has been confirmed to be true by both French Indochina and Westralia, using vastly different tones in their reporting of the event.\n\nThe UMABF, reportedly a coalition of Socialists and Communists with the stated goal of Malayan independence, has reportedly been effectively dissolved. Photographs of the public executions of its leaders are now being circulated worldwide, as the Straits Times report on long sentences of hard labour in Malaya’s infamous rubber plantations for partisans caught by security forces.\n\nAlready Oswald Mosley, self-styled Lord Protector of the Anglosphere, has proclaimed this the ‘first sign of a Third Position offensive’, and has vowed to ‘fight every single soul dare to stand before my glory until we reach Ottawa’. The Canadian and British exile governments have repeatedly refused to comment."
+ world.2.a: "So Cable Street was a total waste then?"
+
  world.3.t: "Poles conquer Russia??"
  world.3.desc: "Interesting developments have occured in the barren wastes of what was once called Russia. As it would seem, the country has yet again become 'unified' in a sense by a power none other than The Republic of New Poland!\n\nFollowing the complete demolition of Poland in 1939, several refugees and Home Army forces found their way to Kazakhstan, specifically the regions in Uralsk and nearby. Following a hectic reunification war with other warlords around the Russian vacuum. They have established a new "Union" with all the other minorities in Russia in a sort of Federation.\n\nAnd the Poles are not done yet. They have one goal and one goal only in mind and that is their total reclamation of Warsaw and destruction of all Nazi forces."
  world.3.a: "Poland is not yet...lost?"
+ 
+ world.4.t: "German Civil War"
+ world.4.desc: "News has finally reached the World that the German Reich has fallen into Civil War.\n\nAs Berlin itself remains in Anarchy, fighting has already broken out elsewhere across the Divided Reich. From KPD loyalists, to Democratic elements, to Monarchists to even Nazi leadership, it would seem that Germany has made an early exit out of the Cold War due to the mishandling of the post leadership crisis following the death of Emil Maurice. Already, the German Colonies and allies are seeing massive anti-axis revolts and uprisings, signalling the end of Nazi hold over Europe..."
+ world.4.a: "And down we go."
+ 
+ world.5.t: "Kaiserboos victorious"
+ world.5.desc: "Surprising news has appeared, with the German Empire under Hans Oster declaring victory in the Civil War.\n\nThis is shocked most of the World except for the Kaiser's earnest supporters as this signals the official end of the New Order created by the NSDAP and a sort of 'reversal' back to the old Kaiserreich. Bearing this in mind, the new Germany finds itself in an interesting new World fundementally incompatible with the restored Empire. Nontheless, The Empire is quickly rebuilding and replacing all pre Imperial policies, looking forward to the World Stage once more."
+ world.5.a: "Wait..What?"
 
 # KOMI COUNTRY EVENTS
  NRRF.1.t: "Voroshilov's Exit"

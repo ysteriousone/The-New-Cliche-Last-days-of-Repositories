@@ -1,0 +1,102 @@
+﻿
+division_template = {
+	name = "PLA militia"
+	division_names_group = MAL_INF_01
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+	}
+	support = {
+	}
+}
+
+units = {
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4367
+		division_template = "PLA militia"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1
+
+	}
+	
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12271
+		division_template = "PLA militia"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1
+
+	}
+	
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12215
+		division_template = "PLA militia"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1
+
+	}
+	
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1376
+		division_template = "PLA militia"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1
+
+	}
+	
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12255
+		division_template = "PLA militia"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1
+
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4384
+		division_template = "PLA militia"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1
+
+	}
+
+	
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "MAL"
+		}
+		requested_factories = 1
+		progress = 0.50
+		efficiency = 80
+	}
+}
