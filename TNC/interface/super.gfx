@@ -24,11 +24,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_sp_event_Sino_Japanese"
-		textureFile = "/gfx/sp_events/Super_Event_Sino_Japanese.dds"
-	}
-	
-	spriteType = {
 		name = "GFX_sp_event_Russian_Unification_KDT"
 		textureFile = "/gfx/sp_events/Super_Event_Russian_Unification_Kadets.dds"
 	}

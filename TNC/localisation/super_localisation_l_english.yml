@@ -55,9 +55,9 @@ sp_event_Carlist:0 "Carlist Victory in Spain"
 sp_event_Carlist_QUOTE:0 "Spain is the strongest country in the world, the Spanish have tried to destroy Spain for centuries and they haven't been able to accomplish it. \n- Otto von Bismark"
 sp_event_Carlist_REMARK:0 "The Return of the King"
 
-sp_event_British_Collapse:0 "British Collapse"
+sp_event_British_Collapse:0 "British Civil War"
 sp_event_British_Collapse_QUOTE:0 "Nothing can save England, if she will not save herself. \n- Winston Churchill"
-sp_event_British_Collapse_REMARK:0 "The Sun Sets"
+sp_event_British_Collapse_REMARK:0 "So long"
 
 sp_event_Fall_Germany:0 "Fall of Germany"
 sp_event_Fall_Germany_QUOTE:0 "Hitlers come and go, but Germany and the German people remain. \n- Joseph Stalin"

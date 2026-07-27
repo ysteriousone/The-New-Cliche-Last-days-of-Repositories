@@ -92,3 +92,11 @@ set_popularities = {
 
 1939.1.1 = {
 }
+
+	create_country_leader = {
+			name = "Ramphis Trujilo"
+			desc = "yeah"
+			picture = portrait_dom_ramphis_trujilo.dds		
+			expire = "1965.1.1"
+			ideology = oligarchism
+		}

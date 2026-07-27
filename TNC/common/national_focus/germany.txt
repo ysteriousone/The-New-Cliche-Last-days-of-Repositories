@@ -40,7 +40,345 @@ focus_tree = {
 			add_ideas = GER_aubenpolitik
 		}
 	}
+	
 	focus = {
-		id = GER_focus_
+		id = GER_The_American_fiasco
+		icon = GFX_focus_GER_weltpolitik
+		x = 15
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_focus_aubenpolitik
+	 }
+
+		completion_reward = {
+	custom_effect_tooltip = ger_North_america_tt
+		}
+	}
+	
+	focus = {
+		id = GER_Peru_Bolivian_Blues
+		icon = GFX_focus_GER_weltpolitik
+		x = 12
+		y = 2
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_The_American_fiasco
+	 }
+
+		completion_reward = {
+	custom_effect_tooltip = ger_North_america_tt
+		}
+	}
+	
+	focus = {
+		id = GER_Send_men
+		icon = GFX_focus_GER_weltpolitik
+		x = 11
+		y = 3
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_Peru_Bolivian_Blues
+	 }
+
+		completion_reward = {
+	custom_effect_tooltip = ger_North_america_tt
+		}
+	}
+	
+	focus = {
+		id = GER_Bomb_Santa_Cruz_to_the_Ground
+		icon = GFX_focus_GER_weltpolitik
+		x = 13
+		y = 3
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_Peru_Bolivian_Blues
+	 }
+
+		completion_reward = {
+	custom_effect_tooltip = ger_North_america_tt
+		}
+	}
+	
+	focus = {
+		id = GER_A_German_Larp
+		icon = GFX_focus_GER_weltpolitik
+		x = 12
+		y = 4
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_Bomb_Santa_Cruz_to_the_Ground
+	 }
+	prerequisite = {
+	focus = GER_Send_men
+	}
+	available = {
+	NOT = {
+	country_exists = BOL
+	 } 
+	 
+	  }
+
+		completion_reward = {
+	PRU = {
+	country_event = {
+	id = proxywin.1
+	days = 4
+	 }
+		}
+	}
+	
+	 }
+	
+	focus = {
+		id = GER_Trouble_In_Dominica
+		icon = GFX_focus_GER_weltpolitik
+		x = 18
+		y = 2
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_The_American_fiasco
+	 }
+
+		completion_reward = {
+	custom_effect_tooltip = ger_North_america_tt
+		}
+	}
+	focus = {
+		id = GER_Endsieg_at_Last
+		icon = GFX_focus_GER_weltpolitik
+		x = 0
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 25
+			add_ideas = GER_aubenpolitik
+		}
+	}
+	
+	focus = {
+		id = GER_A_New_War_approaches
+		icon = GFX_focus_GER_weltpolitik
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_Endsieg_at_Last
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 25
+			add_ideas = GER_aubenpolitik
+		}
+	}
+	
+	focus = {
+		id = GER_the_Wunderwaffen
+		icon = GFX_focus_GER_weltpolitik
+		x = 0
+		y = 2
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_A_New_War_approaches
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+hidden_effect = {
+			goto_province = 3544
+		}
+		create_entity = {
+			entity = nuke_entity
+			id = 0401447
+			province = 3544
+			scale = .40
+			min_zoom = -1
+		}
+		set_entity_animation = {
+			id = 0401447
+			animation = "attack"
+		}
+		set_global_flag = SP_Nuke
+		set_global_flag = Super_Event_Visible
+		play_song = "super_nuke"
 	}
 }
+
+
+	focus = {
+		id = GER_Deny_the_SS
+		icon = GFX_focus_GER_weltpolitik
+		x = -2
+		y = 3
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_the_Wunderwaffen
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+}
+
+
+
+  }
+  
+  	focus = {
+		id = GER_Put_them_to_Use
+		icon = GFX_focus_GER_weltpolitik
+		x = 2
+		y = 3
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	mutually_exclusive 
+	prerequisite = {
+	focus = GER_the_Wunderwaffen
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+}
+
+
+
+  }
+  
+  
+  
+  
+  
+   }

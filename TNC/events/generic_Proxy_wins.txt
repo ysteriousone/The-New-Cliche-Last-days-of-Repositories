@@ -1,0 +1,26 @@
+﻿###########################
+# proxywin Events
+###########################
+
+add_namespace = proxywin
+
+# Germany invites
+country_event = {
+	id = proxywin.1
+	title = proxywin.1.t
+	desc = proxywin.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # House in New Berlin
+		name = proxywin.1.a  
+  GER = {
+  add_to_faction = ROOT
+  }
+}
+
+
+}
+
+

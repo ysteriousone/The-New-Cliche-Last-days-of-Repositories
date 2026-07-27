@@ -1950,6 +1950,7 @@ country_event = {	# Russian Unification - Nowa Polksa
 		
         set_global_flag = RUS_KDT
 		set_global_flag = Super_Event_Visible
+		set_global_flag = RUS_KDT_visible
 		play_song = "super_russian_unification_Kadets"
 	}
 }
