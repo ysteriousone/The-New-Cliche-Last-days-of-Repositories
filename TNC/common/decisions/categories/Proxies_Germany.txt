@@ -24,3 +24,12 @@ Hispaniola_war_GER_cat = {
     }
 	
  }
+ 
+ Battle_for_Sweden_GER_cat = {
+  icon = generic_political_actions
+  
+  allowed = {
+   tag = GER
+    }
+	
+ }

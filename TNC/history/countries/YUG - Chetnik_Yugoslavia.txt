@@ -1,0 +1,35 @@
+﻿capital = 64
+
+OOB = "YUG_1945"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	camelry = 1
+}
+
+add_manpower = 15000
+set_convoys = 10
+
+
+set_politics = {
+	ruling_party = Ultranationalism
+	last_election = "1935.5.3"
+	election_frequency = 36
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 15
+	fascism = 10
+	communism = 15
+	Ultranationalism = 60
+}
+	create_country_leader = {
+			name = "Draza Mikhailovic"
+			desc = ""
+			picture = Draza_Mikhailovic.dds		
+			expire = "1965.1.1"
+			ideology = Chetnik_nationalism
+			traits = {
+			}
+		}

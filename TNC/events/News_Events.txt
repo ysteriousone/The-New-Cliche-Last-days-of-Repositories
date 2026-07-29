@@ -140,3 +140,20 @@ news_event = {
 		play_song = "super_british_collapse"
 	}
 }
+
+# Balkan War
+news_event = {
+	id = world.8
+	title = world.8.t
+	desc = world.8.desc
+	picture = GFX_news_balkan_war 
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world.8.a
+		play_song = "The_Battle_Has_Begun"
+	}
+}

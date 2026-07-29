@@ -52,7 +52,16 @@
  Escalate_The_Emergency: "Escalate the Insurgency"
  Prepare_Evacuation: "Prepare the Evacuation"
  
+ #Hispaniolan war
+ 
  Hispaniola_war_cat: "The Hispaniolan Unification"
+ 
+ #Battle for Sweden
+ 
+ Battle_for_Sweden_GER_cat: "The Battle for Sweden"
+ Battle_for_Sweden_GER_cat_desc: "While effectively functioning as a Republic, Sweden’s Monarchy still somewhat stirs one’s imagination. The King, a certain Gustav V, holds a vast array of tools he could use against his Parliament, but he chooses not to after being outmanoeuvred early in his rule. That is why many Swedes adore him, and that is why we can use him.\n\nThe King, who refused a coronation, would not be one to leave Germania hanging. If we nudge his supporters into nudging him to take action, the Swedish Monarchy’s reserve powers can be of use to us. Or we can nudge the fledgling Third Positionists into accepting parliamentarism, neutralising a threat both to the Monarchy and our warm relationship.\n\nBut, ultimately, the choice rests with the Fuhrer."
+ Steer_power_away_from_parliament: "Steer power away from Parliament"
+ Spies_to_Stockholm: "Send spies to Stockholm"
 
  decision_cost_CP_15: "£command_power  §Y15§!"
  decision_cost_CP_15_blocked: "£command_power  §R15§!"

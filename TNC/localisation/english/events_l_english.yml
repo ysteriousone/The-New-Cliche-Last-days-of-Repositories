@@ -21,6 +21,10 @@
  world.6.t: "Tsarists unify Russia"
  world.6.desc: "Today, Romanov pretender Vladimir III has announced the restoration of the Russian Empire.\n\nComing from a Depressive and nihlistic phase, the Tsarists based in Vyatka have re-unified all of Russia in their banner. Not only that, it would seem that at the helm are the Liberal Constituional Democratic Party - The Kadets. Under their leadership, the Empire has taken a completely new face which includes free speech since a long time and a type of British model in leadership. Journalists and Russians dub this Empire "Imperial Benevolence". The Tsar is seen in an ecstatic mood and happy for his people.\n\nThe Empire now looks Westwards, to Saint Petersburg and Moscow"
  world.6.a: "The Empire long divided, must unite."
+ 
+ world.8.t: "5th Balkan War"
+ world.8.desc: "It seems that history never changes as yet another Balkan War has started almost instanteniously after the German Civil War. \n\nA Coalition formed by the Byzantine Republic and 'Carol-Land' has jointly invaded the Tsardom of Bulgaria. The Yugoslav remnants under Chetnik leader Draza Mikhailovic has also taken the change to invade both Bulgaria and the newly declared Uzice Republic in Banat. This has lead to a confusing treaty where Jozip Broz Tito had agreed on a temporary alliance with Bulgaria. It would seem it will be a strange new proxy war for the remaining Great Powers in the Cold War"
+ world.8.a: "Something that feels nostalgic at last."
 
 # KOMI COUNTRY EVENTS
  NRRF.1.t: "Voroshilov's Exit"

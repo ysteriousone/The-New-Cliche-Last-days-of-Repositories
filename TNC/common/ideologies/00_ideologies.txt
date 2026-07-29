@@ -6,7 +6,15 @@ Ultranationalism  = {
 
 		ukrainian_nationalism  = {
 			}
-
+			
+			
+		Chetnik_nationalism  = {
+			}	
+	
+		Antichrist_Satanism  = {
+		
+		color = {  11 0 45 }
+			}
 
 		}
 

@@ -10,9 +10,12 @@
  GER_focus_aubenpolitik:0 "Außenpolitik"
 
  #EVENTS#
+ 
+ swe.1.t: "Kriegsmarine spotted in Skaneland!"
 
  #DECISIONS#
  
  
  #TOOLTIP#
  ger_North_america_tt: "We will be able to help in America!"
+ ger_danish_belt_tt: "§RTHIS WILL HAMPER OUR STANDING WITH SWEDISH FASCISTS!§!"

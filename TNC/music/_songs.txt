@@ -24,6 +24,16 @@ music = {
 }
 
 music = {
+	song = "The_Battle_Has_Begun"
+	
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}	
+}
+
+music = {
 	song = "heres_to_you"
 	
 	chance = {

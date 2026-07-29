@@ -16,6 +16,15 @@ country_event = {
 	option = { # Assemble the Reichstag
 		name = ger.1.a  
 	kill_country_leader = yes
+	hidden_effect = {
+	BUL = {
+	country_event = {
+	id = proxy.6
+	days = 10
+	}
+	 }
+	 
+	}
 }
 
 
@@ -23,6 +32,15 @@ country_event = {
 		name = ger.b.a 
 	kill_country_leader = yes
 	country_event = { id = ger.2 days = 10 }
+		hidden_effect = {
+	BUL = {
+	country_event = {
+	id = proxy.6
+	days = 10
+	}
+	 }
+	 
+	 }
 }
 
 }
@@ -50,7 +68,7 @@ transfer_state = 143
 ZZZ = {
 release = DEN
 release = CRI
-
+release = SER
   }
   
 RKN = {
@@ -66,13 +84,15 @@ transfer_state = 75
 transfer_state = 72
 transfer_state = 74
 }
-YUG = {
-transfer_state = 764
-}
+
 EST = {
 transfer_state = 811
 }
-}
+SER = {
+load_oob = "SER_1945"
+ }
+ 
+  }
 
 }
 
