@@ -1,0 +1,383 @@
+Malayan_insurgency_cat = {
+
+	Plan_B = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+		country_exists = MAL
+	NOT = {
+	country_exists = BML
+		}
+		
+	}
+
+		available = {
+	country_exists = MAL
+	NOT = {
+	country_exists = BML
+		}	
+		}
+
+		complete_effect = {
+    declare_war_on = {
+	target = SAB
+	type = annex_everything
+	}
+	
+	declare_war_on = {
+	target = BRN
+	type = annex_everything
+	}
+	
+	    declare_war_on = {
+	target = SAR
+	type = annex_everything
+	}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+}
+
+	Fortress_Singapore = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+		country_exists = MAL
+	NOT = {
+	country_exists = BML
+		}
+		
+	}
+
+		available = {
+	country_exists = MAL
+	NOT = {
+	country_exists = BML
+		}
+	controls_state = 1021
+			
+		}
+
+		complete_effect = {
+
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+}
+
+Establish_a_Foothold_in_Brunei = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+		country_exists = MAL
+	NOT = {
+	country_exists = BML
+		}
+		
+	}
+
+		available = {
+	country_exists = MAL
+	NOT = {
+	country_exists = BML
+		}
+	controls_state = 336
+	controls_state = 1059
+	controls_state = 1024
+			
+		}
+
+		complete_effect = {
+    BML = {
+	add_state_core = 333
+	add_state_core = 1059
+	add_state_core = 1024
+	}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+}
+
+Build_up_Johor = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+		country_exists = MAL
+	NOT = {
+	country_exists = BML
+		}
+		
+	}
+
+		available = {
+	country_exists = MAL
+	NOT = {
+	country_exists = BML
+		}
+	controls_state = 1060
+			
+		}
+
+		complete_effect = {
+    1060 = {
+	add_core_of = BML
+	}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+}
+
+
+Kuala_Lampur_Fortifications = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+		country_exists = MAL
+	NOT = {
+	country_exists = BML
+		}
+		
+	}
+
+		available = {
+	country_exists = MAL
+	NOT = {
+	country_exists = BML
+		}
+	controls_state = 336
+			
+		}
+
+		complete_effect = {
+    336 = {
+	add_core_of = BML
+	}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+}
+
+Garrisons_to_Malaysia = {
+		icon = generic_industry
+		cost = 10
+		fire_only_once = no
+    days_re_enable = 70
+		visible = {
+		country_exists = MAL
+	NOT = {
+	country_exists = BML
+		}
+		
+	}
+		available = {
+	country_exists = MAL
+	NOT = {
+	country_exists = BML
+		}
+			
+		}
+
+		complete_effect = {
+    add_manpower = -1500
+	
+	BML = {
+	add_manpower = 1500
+	
+	}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+}
+
+Covert_Arms_output = {
+		icon = generic_industry
+		cost = 250
+		fire_only_once = no
+    days_re_enable = 140
+		visible = {
+		country_exists = MAL
+	NOT = {
+	country_exists = BML
+		}
+		
+	}
+		available = {
+	country_exists = MAL
+	NOT = {
+	country_exists = BML
+		}
+			
+		}
+
+		complete_effect = {
+    random_owned_controlled_state = {
+				prioritize = { 1060 336 }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+	
+	}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+	
+	
+	
+Perak_Blitz = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+		country_exists = BML
+		
+	}
+
+		available = {
+	country_exists = BML
+			
+		}
+
+		complete_effect = {
+		
+	BML = {
+		
+		start_border_war = {
+				change_state_after_war = yes
+			 	attacker = {
+			 		state = 336
+					num_provinces = 3
+			 		on_win = transfer_state = 1064 
+					on_lose = 
+			 	}	
+			 	defender = {
+			 		state = 1064
+					num_provinces = 4
+				}
+			 }
+
+   }
+    }
+		ai_will_do = {
+			base = 10
+		}
+
+}
+
+
+
+
+
+
+Escalate_The_Emergency = {
+		icon = generic_industry
+		cost = 150
+		fire_only_once = yes
+
+		visible = {
+		country_exists = BML
+		
+	}
+
+		available = {
+	country_exists = BML
+	BML = {
+		has_offensive_war = yes	
+			
+		}
+	}
+
+		complete_effect = {
+	add_manpower = -8000
+	add_relation_rule_override = {
+					can_send_volunteers = yes
+				}
+
+		
+	1060 = {
+							create_unit = { 
+								division = "name = \"Anglosphere Garrison\" division_template = \"British Colonial Loyalists\" start_experience_factor = 0.5" 
+								owner = BML
+							}
+							create_unit = { 
+								division = "name = \"Anglosphere Garrison\" division_template = \"British Colonial Loyalists\" start_experience_factor = 0.5" 
+								owner = BML
+							}
+						}
+					}
+			ai_will_do = {
+			base = 10
+		}
+
+}
+
+Prepare_Evacuation = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+		country_exists = BML
+		
+	}
+
+		available = {
+	country_exists = BML
+	BML = {
+		has_offensive_war = yes	
+			
+		}
+	controls_state = 333
+	controls_state = 1059
+	controls_state = 1024
+   }
+		complete_effect = {
+    BML = {
+	transfer_state = 333
+	transfer_state = 1059
+	transfer_state = 1024
+
+	}	
+	}
+			ai_will_do = {
+			base = 1
+		}
+
+}
+
+
+ }

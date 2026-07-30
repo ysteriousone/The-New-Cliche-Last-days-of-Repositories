@@ -1,0 +1,92 @@
+characters = {
+	
+
+  ####    ####   #    #  #    #  #####  #####   #   #      #       ######    ##    #####   ######  #####    ####  
+ #    #  #    #  #    #  ##   #    #    #    #   # #       #       #        #  #   #    #  #       #    #  #      
+ #       #    #  #    #  # #  #    #    #    #    #        #       #####   #    #  #    #  #####   #    #   ####  
+ #       #    #  #    #  #  # #    #    #####     #        #       #       ######  #    #  #       #####        # 
+ #    #  #    #  #    #  #   ##    #    #   #     #        #       #       #    #  #    #  #       #   #   #    # 
+  ####    ####    ####   #    #    #    #    #    #        ######  ######  #    #  #####   ######  #    #   ####  
+
+
+
+
+
+
+
+   # #    #####   #    #  #   #      #        ######    ##    #####   ######  #####    ####  
+  #   #   #    #  ##  ##   # #       #        #        #  #   #    #  #       #    #  #      
+ #     #  #    #  # ## #    #        #        #####   #    #  #    #  #####   #    #   ####  
+ #######  #####   #    #    #        #        #       ######  #    #  #       #####        # 
+ #     #  #   #   #    #    #        #        #       #    #  #    #  #       #   #   #    # 
+ #     #  #    #  #    #    #        #######  ######  #    #  #####   ######  #    #   ####  
+                                                                                             
+
+	KOM_Zhukov = {
+		name = KOM_Zhukov
+		portraits = {
+			army = {
+				small = GFX_portrait_KOM_Zhukov
+				large = GFX_portrait_KOM_Zhukov
+			}
+		}
+
+		advisor = {
+			cost = 150
+			slot = theorist
+			idea_token = Zhukov
+			ledger = army
+			allowed = {
+				tag = KOM
+			}
+			traits = {
+				grand_battle_plan_expert
+			}
+			ai_will_do = {
+				base = 3.000
+			}
+		}
+
+		field_marshal = {
+			traits = { trait_cautious politically_connected offensive_doctrine desert_fox }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = 0
+		}
+		
+    country_leader = {
+			ideology = Military_socialism
+			traits = { moderate_reformist }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KOM_Zhukov
+				small = GFX_portrait_KOM_Zhukov
+			}
+			
+		}
+	}
+	
+	KOM_Supreme_Soviet={
+
+			name = KOM_Supreme_Soviet
+			portraits={
+				civilian={
+					large = GFX_portrait_KOM_Supreme_Soviet
+				}
+			}
+			country_leader={
+				ideology=leninism
+				expire="1965.1.1.1"
+				id=-1
+			}
+		}
+
+
+
+}

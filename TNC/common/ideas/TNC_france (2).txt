@@ -1,0 +1,59 @@
+ideas = {
+	country = {
+
+		TNC_bitter_loser = {
+			picture = TNC_bitter_loser-1
+			modifier = {
+				war_support_factor = 0.15
+war_support_weekly = 0.005
+drift_defence_factor = -0.45
+			}
+		}
+
+		TNC_rampant_corruption = {
+			picture = TNC_rampant_corruption-1
+			modifier = {
+				political_power_gain = -0.35
+stability_factor = -0.25
+
+			}
+		}
+
+		TNC_french_mafia = {
+			picture = TNC_french_mafia-1
+			modifier = {
+				production_speed_buildings_factor = -0.25
+industrial_capacity_dockyard = -0.2
+industrial_capacity_factory = -0.2
+cic_construction_boost = -0.2
+resistance_activity = 0.5
+			}
+		}
+
+		TNC_the_jewish_haven = {
+			picture = TNC_the_jewish_haven-1
+			modifier = {
+				monthly_population = 0.25
+conscription_factor = 0.35
+			}
+		}
+
+		TNC_bastion_of_western_socialism = {
+			picture = fourth_international
+			modifier = {
+				war_support_factor = 0.25
+war_stability_factor = 0.15
+
+			}
+		}
+
+		TNC_the_artists_state = {
+			picture = TNC_the_artists_state-1
+			modifier = {
+				stability_factor = 0.2
+party_popularity_stability_factor = 0.15
+political_power_factor = 0.15
+			}
+		}
+	}
+}

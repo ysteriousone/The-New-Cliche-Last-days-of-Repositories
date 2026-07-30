@@ -1,0 +1,558 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = ural_brigade_initial
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = URL
+		}
+	}
+	default = no
+
+
+	focus = {
+		id = URL_Status_of_the_Economy
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 6
+		y = -1
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+
+	
+	focus = {
+		id = URL_What_Economy
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 6
+		y = 0
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+    prerequisite = {
+	focus = URL_Status_of_the_Economy
+	}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_raids
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 6
+		y = 1
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+    prerequisite = {
+	focus = URL_What_Economy
+	}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_Take_Loans_from_Maurice
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 4
+		y = 2
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+		
+	prerequisite = {
+	focus = URL_What_Economy
+	}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_establish_a_currency
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 4
+		y = 3
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+	prerequisite = {
+	focus = URL_Take_Loans_from_Maurice
+	}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_Sell_Mercs_to_Germany
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 4
+		y = 4
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+	prerequisite = {
+	focus = URL_establish_a_currency
+	}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_Establish_the_Dirlewanger_bank
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 8
+		y = 2
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+	prerequisite = {
+	focus = URL_What_Economy
+	}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_Pay_for_your_Freedom
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 7
+		y = 3
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+	mutually_exclusive = {
+	focus = URL_Why_work_when_we_have_Slavs
+	}
+	prerequisite = {
+	focus = URL_Establish_the_Dirlewanger_bank
+	}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_Why_work_when_we_have_Slavs
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 9
+		y = 3
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+	prerequisite = {
+	focus = URL_Establish_the_Dirlewanger_bank
+	}
+	mutually_exclusive = {
+	focus = URL_Pay_for_your_Freedom
+ }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = URL_Raid_our_Neighbors
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 11
+		y = 2
+		
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+	prerequisite = {
+	focus = URL_raids
+ }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_The_Problem_still_persists
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 8
+		y = 4
+		
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+	prerequisite = {
+	focus = URL_Pay_for_your_Freedom
+	focus = URL_Why_work_when_we_have_Slavs
+ }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_Free_them_like_Justinian
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 6
+		y = 5
+		
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+	mutually_exclusive = {
+	focus = URL_Dirlewanger_is_always_right
+	}
+	prerequisite = {
+	focus = URL_The_Problem_still_persists
+ }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_Dirlewanger_is_always_right
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 10
+		y = 5
+		
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+	mutually_exclusive = {
+	focus = URL_Free_them_like_Justinian
+	}
+	prerequisite = {
+	focus = URL_The_Problem_still_persists
+ }
+		completion_reward = {
+		}
+	}
+	
+		
+	focus = {
+		id = URL_Status_of_The_Legion
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 17
+		y = 0
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_Start_reforming
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 17
+		y = 1
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+    prerequisite = {
+	focus = URL_Status_of_The_Legion
+	}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_Pillage_The_Villages
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 15
+		y = 2
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+    prerequisite = {
+	focus = URL_Start_reforming
+	}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = URL_Status_of_The_Churches
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 15
+		y = 3
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+    prerequisite = {
+	focus = URL_Pillage_The_Villages
+	}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_Expand_Slavery
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 17
+		y = 2
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+	available = {
+	has_completed_focus = URL_Dirlewanger_is_always_right
+	}
+    prerequisite = {
+	focus = URL_Start_reforming
+	}
+		completion_reward = {
+		}
+	}
+	
+		focus = {
+		id = URL_Centralize_the_Brigade
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 17
+		y = 3
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+    prerequisite = {
+	focus = URL_Expand_Slavery
+	}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_Purge_Partisans
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 19
+		y = 2
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+    prerequisite = {
+	focus = URL_Start_reforming
+	}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_No_Place_for_Sympathy
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 19
+		y = 3
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+    prerequisite = {
+	focus = URL_Purge_Partisans
+	}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_Time_To_Take_Over_These_Maddening_Lands
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 17
+		y = 4
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+    prerequisite = {
+	focus = URL_Status_of_The_Churches
+	focus = URL_Centralize_the_Brigade
+	}
+	prerequisite = {
+	focus = URL_No_Place_for_Sympathy
+	}
+	 available = {
+	 date > 1947.1.1
+	  }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_Remember_1939
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 15
+		y = 5
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+	prerequisite = {
+	focus = URL_Time_To_Take_Over_These_Maddening_Lands
+	}
+		completion_reward = {
+	declare_war_on = {
+	target = NPL
+	type = annex_everything
+	 }
+		}
+	}
+	
+	focus = {
+		id = URL_Snuff_out_The_Polish_Dream
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 15
+		y = 6
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+	prerequisite = {
+	focus = URL_Remember_1939
+	}
+	available = {
+	NOT = {
+	country_exists = NPL
+	}
+	 }
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = URL_Take_Down_The_Sad_Tsar
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 17
+		y = 5
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+	prerequisite = {
+	focus = URL_Time_To_Take_Over_These_Maddening_Lands
+	}
+		completion_reward = {
+	declare_war_on = {
+	target = RUS
+	type = annex_everything
+	 }
+		}
+	}
+	
+	focus = {
+		id = URL_Just_Give_Up_Bro
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 17
+		y = 6
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+	prerequisite = {
+	focus = URL_Take_Down_The_Sad_Tsar
+	}
+	available = {
+	NOT = {
+	country_exists = RUS
+	}
+	 }
+		completion_reward = {
+		}
+	}
+	
+		focus = {
+		id = URL_so_You_Sell_Guns
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 19
+		y = 5
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+	prerequisite = {
+	focus = URL_Time_To_Take_Over_These_Maddening_Lands
+	}
+		completion_reward = {
+	declare_war_on = {
+	target = ZLT
+	type = annex_everything
+	 }
+		}
+	}
+	
+	focus = {
+		id = URL_Thanks_well_take_them
+		
+		icon = GFX_focus_generic_cryptologic_bomb
+		x = 19
+		y = 6
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}
+	prerequisite = {
+	focus = URL_so_You_Sell_Guns
+	}
+	available = {
+	NOT = {
+	country_exists = ZLT
+	} 
+	   }
+		completion_reward = {
+		}
+	}
+	
+
+
+
+}

@@ -1,0 +1,36 @@
+﻿###########################
+# poland Events
+###########################
+
+add_namespace = poland
+
+# Polish Civil War
+country_event = {
+	id = poland.1
+	title = poland.1.t
+	desc = poland.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Alan we are so cooked
+		name = poland.1.a  
+    
+ POL = {
+ transfer_state = 10
+ transfer_state = 92
+ transfer_state = 90
+ declare_war_on = {
+  target = GEN
+  type = annex_everything
+}
+
+}
+
+
+}
+
+
+}
+
+

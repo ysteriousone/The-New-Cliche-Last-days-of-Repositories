@@ -1,0 +1,96 @@
+ideas = {
+	country = {
+		KAI_bismarcks_movement = {
+			allowed = {
+				always = yes
+			}
+			picture = GER_fan_prussian_militarism
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = -0.05
+				war_support_factor = 0.1
+				conscription_factor = 0.15
+				army_attack_factor = 0.05
+				army_defence_factor = 0.03
+			}
+		}
+		KAI_bismarcks_movement_good = {
+			allowed = {
+				always = yes
+			}
+			picture = GER_fan_prussian_militarism
+			modifier = {
+				political_power_factor = 0.15
+				stability_factor = 0.05
+				war_support_factor = 0.15
+				conscription_factor = 0.15
+				army_attack_factor = 0.1
+				army_defence_factor = 0.05
+			}
+		}
+		KAI_bismarcks_movement_bad = {
+			allowed = {
+				always = yes
+			}
+			picture = GER_fan_prussian_militarism
+			modifier = {
+				political_power_factor = -0.15
+				stability_factor = -0.05
+				war_support_factor = 0.05
+				conscription_factor = 0.1
+				army_attack_factor = 0.05
+				army_defence_factor = 0.03
+			}
+		}
+		german_civil_war = {
+			allowed = {
+				always = yes
+			}
+			picture = FIN_german_threat
+			modifier = {
+				war_support_factor = 0.2
+				stability_factor = -0.2
+				army_attack_factor = 0.05
+				army_defence_factor = 0.25
+				army_speed_factor = 0.1
+				drift_defence_factor = 0.25
+			}
+		}
+		KAI_loyal_generals = {
+			allowed = {
+				always = yes
+			}
+			picture = german_advisors
+			modifier = {
+				army_morale_factor = 0.05
+				army_leader_start_attack_level = 1
+			}
+		}
+		KAI_socialist_gangsters = {
+			allowed = {
+				always = yes
+			}
+			picture = PRC_hundred_regiments_offensive
+			modifier = {
+				communism_drift = 0.01
+				Popular_Socialism_drift = 0.01
+				Schizo_Communism_drift = 0.01
+				political_power_gain = -0.05
+				stability_factor = -0.15
+				conscription_factor = -0.05
+			}
+		}
+		KAI_peoples_king = {
+			allowed = {
+				always = yes
+			}
+			picture = f
+			modifier = {
+				neutrality_drift = 0.03
+				stability_factor = 0.05
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = 0.05
+			}
+		}
+	}
+}

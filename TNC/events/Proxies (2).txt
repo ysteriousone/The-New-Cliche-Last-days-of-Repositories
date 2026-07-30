@@ -1,0 +1,249 @@
+﻿###########################
+# Proxy Wars
+###########################
+
+add_namespace = proxy
+
+# Hispaniolan Unification
+country_event = {
+	id = proxy.1
+	title = proxy.1.t
+	desc = proxy.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+    is_triggered_only = yes 
+	fire_only_once = yes
+
+	option = { 
+		name = proxy.1.a
+		
+	DOM = {
+	declare_war_on = {
+	target = HAI
+	type = annex_everything
+}
+}
+}
+
+}
+
+# Cascadian War
+country_event = {
+	id = proxy.2
+	title = proxy.2.t
+	desc = proxy.2.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+    is_triggered_only = yes 
+	fire_only_once = yes
+
+	option = { 
+		name = proxy.1.a
+		
+    declare_war_on = {
+    target = WSG
+    type = annex_everything
+}
+declare_war_on = {
+target = ORE
+type = annex_everything
+}
+declare_war_on = {
+ target = IDH
+type = annex_everything 
+}
+
+ 
+ }
+ 
+}
+
+# Indian Independence War
+country_event = {
+	id = proxy.3
+	title = proxy.3.t
+	desc = proxy.3.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+    is_triggered_only = yes 
+	fire_only_once = yes
+
+	option = { 
+		name = proxy.1.a
+		
+    declare_war_on = {
+    target = INC
+    type = annex_everything
+}
+declare_war_on = {
+target = RAJ
+type = annex_everything
+}
+declare_war_on = {
+ target = RSS
+type = annex_everything 
+}
+
+declare_war_on = {
+ target = CPI
+ type = annex_everything
+ 
+ }
+ 
+}
+
+}
+
+
+# Italian Civil War
+country_event = {
+	id = proxy.4
+	title = proxy.4.t
+	desc = proxy.4.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+    is_triggered_only = yes 
+	fire_only_once = yes
+
+	option = { 
+		name = proxy.1.a
+    ITA = {
+	leave_faction = yes
+	}
+}
+	ITA = {
+	declare_war_on = {
+	target =  TTS
+	type = annex_everything 
+	}
+	declare_war_on = {
+	target = SME
+	type = annex_everything
+	}
+	declare_war_on  = {
+	target = LBV
+	type = annex_everything
+	}
+	
+	}
+	
+TTS = {
+	declare_war_on = {
+	target = SME
+	type = annex_everything
+	}
+	declare_war_on  = {
+	target = LBV
+	type = annex_everything
+	}
+	declare_war_on = {
+	target = FIU
+	type = annex_everything
+	}
+	
+	}
+	
+SME = {
+	declare_war_on  = {
+	target = LBV
+	type = annex_everything
+	}
+	declare_war_on = {
+	target = FIU
+	type = annex_everything
+	}
+	
+	}
+	
+LBV = {
+	declare_war_on = {
+	target = FIU
+	type = annex_everything
+	}
+	
+	}
+ 
+}
+
+# Desert War
+country_event = {
+	id = proxy.5
+	title = proxy.5.t
+	desc = proxy.5.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+    is_triggered_only = yes 
+	fire_only_once = yes
+
+	option = { 
+		name = proxy.1.a
+		
+	TUR = {
+	declare_war_on = {
+	target = IRQ
+	type = annex_everything
+}
+ }
+IRQ = {
+leave_faction = yes
+ 
+}
+
+}
+
+}
+
+
+# Balkan War
+country_event = {
+	id = proxy.6
+	title = proxy.6.t
+	desc = proxy.6.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+    is_triggered_only = yes 
+	fire_only_once = yes
+
+	option = { 
+		name = proxy.6.a
+	GRE = {
+	
+create_faction_from_template = { 
+template = faction_template_generic_dominance
+		name = "Byzantine Alliance"
+		}
+add_to_faction = ROM
+
+declare_war_on = {
+target = BUL
+type = annex_everything
+ }
+ 
+  }
+ 
+BUL = {
+	
+create_faction_from_template = { 
+template = faction_template_generic_dominance
+		name = "Balkan Entente"
+		}
+add_to_faction = SER
+ }
+ 
+ 
+ YUG = {
+	
+create_faction_from_template = { 
+template = faction_template_generic_dominance
+		name = "Yugoslav Union"
+		}
+		
+	declare_war_on = {
+	target = BUL
+	type = annex_everything
+	}
+	}
+	
+news_event = {
+id = world.7
+days = 3
+ }
+	
+ }
+  
+ 
+}

@@ -1,0 +1,38 @@
+﻿###########################
+# caucasus Events
+###########################
+
+add_namespace = caucasus
+
+# Kaukasien Civil War
+country_event = {
+	id = caucasus.1
+	title = caucasus.1.t
+	desc = caucasus.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Alan we are so cooked
+		name = caucasus.1.a  
+  release = KAL
+  release = STL
+  DON = {
+  transfer_state = 238
+  transfer_state = 234
+  transfer_state = 235
+	}
+  KAL = {
+  transfer_state = 236
+  add_state_core = 236
+  }
+  TUR = {
+  transfer_state = 230
+  transfer_state = 229
+}
+
+release = GEO
+
+
+}
+

@@ -1,0 +1,45 @@
+﻿###########################
+# NRRF Events
+###########################
+
+add_namespace = NRRF
+
+# Voroshilov Retires
+country_event = {
+	id = NRRF.1
+	title = NRRF.1.t
+	desc = NRRF.1.desc
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Alan we are so cooked
+		name = NRRF.1.a  
+   retire_country_leader = yes
+   promote_character = SOV_Supreme_Soviet
+   load_focus_tree = NRRF_pre-Regional
+}
+
+
+}
+
+# Batov's conversation
+country_event = {
+	id = NRRF.2
+	title = NRRF.2.t
+	desc = NRRF.2.desc
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { 
+		name = NRRF.2.a  
+}
+
+
+}
+
+
+}
+
+

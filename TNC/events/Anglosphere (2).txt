@@ -1,0 +1,58 @@
+﻿###########################
+# eng Events
+###########################
+
+add_namespace = eng
+
+# Malayan Insurgency - Part 1
+country_event = {
+	id = eng.1
+	title = eng.1.t
+	desc = eng.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Alan we are so cooked
+		name = eng.1.a  
+    BML = {
+	transfer_state = 336
+	transfer_state = 1060
+	load_oob = "BML_1945"
+
+}
+
+ country_event = { id = eng.2 days = 14 }
+
+
+}
+
+
+}
+
+# Malayan insurgency - Part 2
+country_event = {
+	id = eng.2
+	title = eng.2.t
+	desc = eng.2.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Alan we are so cooked
+		name = eng.1.a  
+    BML = {
+   declare_war_on = {
+   target = MAL
+   type = annex_everything
+}
+
+
+}
+
+
+}
+
+  }
+
+

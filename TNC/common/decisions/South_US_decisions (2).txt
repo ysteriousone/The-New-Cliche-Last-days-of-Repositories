@@ -1,0 +1,46 @@
+USA_reunification_CSA_cat = {
+
+	form_CSA = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+			always = yes
+		}
+
+		available = {
+			362 = { is_controlled_by = ROOT }
+			369 = { is_controlled_by = ROOT }
+			363 = { is_controlled_by = ROOT }
+			368 = { is_controlled_by = ROOT }
+			364 = { is_controlled_by = ROOT }
+			365 = { is_controlled_by = ROOT }
+			366 = { is_controlled_by = ROOT }
+			370 = { is_controlled_by = ROOT }
+			371 = { is_controlled_by = ROOT }
+			372 = { is_controlled_by = ROOT }
+			
+		}
+
+		complete_effect = {
+		ROOT = {
+		add_state_core = 372
+		add_state_core = 371
+		add_state_core = 370
+		add_state_core = 366
+		add_state_core = 365
+		add_state_core = 364
+		add_state_core = 368
+		add_state_core = 363
+		add_state_core = 369
+		add_state_core = 362
+			set_cosmetic_tag = CSA_united
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+}

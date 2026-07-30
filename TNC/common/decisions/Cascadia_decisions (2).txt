@@ -1,0 +1,30 @@
+USA_reunification_cascadia_cat = {
+
+	form_cascadia = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+			always = yes
+		}
+
+		available = {
+			385 = { is_controlled_by = ROOT }
+			386 = { is_controlled_by = ROOT }
+			387 = { is_controlled_by = ROOT }
+		}
+
+		complete_effect = {
+			385 = { add_core_of = ROOT }
+			386 = { add_core_of = ROOT }
+			387 = { add_core_of = ROOT }
+			set_cosmetic_tag = Cascadia_united
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+}

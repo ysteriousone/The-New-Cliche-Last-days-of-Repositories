@@ -1,0 +1,35 @@
+USA_reunification_great_lakes_cat = {
+
+	form_great_lakes = {
+		icon = generic_industry
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+			always = yes
+		}
+
+		available = {
+			394 = { is_controlled_by = ROOT }
+			395 = { is_controlled_by = ROOT }
+			396 = { is_controlled_by = ROOT }
+			261 = {is_controlled_by = ROOT }
+			393 = {is_controlled_by = ROOT }
+		}
+
+		complete_effect = {
+	    ROOT = {
+		add_state_core = 394
+		add_state_core = 395
+		add_state_core = 396
+		add_state_core = 261
+		add_state_core = 393
+			set_cosmetic_tag = Great_Lakes
+		}
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+
+}

@@ -1,0 +1,1071 @@
+focus_tree = {
+	id = german_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+
+	initial_show_position = {
+		x = 76
+		y = 0
+	}
+	focus = {
+		id = GER_focus_aubenpolitik
+		icon = GFX_focus_GER_weltpolitik
+		x = 20
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 25
+			add_ideas = GER_aubenpolitik
+		}
+	}
+	
+	focus = {
+		id = GER_The_American_fiasco
+		icon = GFX_focus_GER_weltpolitik
+		x = 15
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_focus_aubenpolitik
+	 }
+
+		completion_reward = {
+	custom_effect_tooltip = ger_North_america_tt
+		}
+	}
+	
+	focus = {
+		id = GER_Peru_Bolivian_Blues
+		icon = GFX_focus_GER_weltpolitik
+		x = 12
+		y = 2
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_The_American_fiasco
+	 }
+
+		completion_reward = {
+	custom_effect_tooltip = ger_North_america_tt
+		}
+	}
+	
+	focus = {
+		id = GER_Send_men
+		icon = GFX_focus_GER_weltpolitik
+		x = 11
+		y = 3
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_Peru_Bolivian_Blues
+	 }
+
+		completion_reward = {
+	custom_effect_tooltip = ger_North_america_tt
+		}
+	}
+	
+	focus = {
+		id = GER_Bomb_Santa_Cruz_to_the_Ground
+		icon = GFX_focus_GER_weltpolitik
+		x = 13
+		y = 3
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_Peru_Bolivian_Blues
+	 }
+
+		completion_reward = {
+	custom_effect_tooltip = ger_North_america_tt
+		}
+	}
+	
+	focus = {
+		id = GER_A_German_Larp
+		icon = GFX_focus_GER_weltpolitik
+		x = 12
+		y = 4
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_Bomb_Santa_Cruz_to_the_Ground
+	 }
+	prerequisite = {
+	focus = GER_Send_men
+	}
+	available = {
+	NOT = {
+	country_exists = BOL
+	 } 
+	 
+	  }
+
+		completion_reward = {
+	PRU = {
+	country_event = {
+	id = proxywin.1
+	days = 4
+	 }
+		}
+	}
+	
+	 }
+	
+	focus = {
+		id = GER_Trouble_In_Dominica
+		icon = GFX_focus_GER_weltpolitik
+		x = 18
+		y = 2
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_The_American_fiasco
+	 }
+
+		completion_reward = {
+	custom_effect_tooltip = ger_North_america_tt
+		}
+	}
+	
+	focus = {
+		id = GER_There_is_no_other_choise
+		icon = GFX_focus_GER_weltpolitik
+		x = 17
+		y = 3
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_Trouble_In_Dominica
+	 }
+
+		completion_reward = {
+	custom_effect_tooltip = ger_North_america_tt
+		}
+	}
+	
+		focus = {
+		id = GER_And_to_Betray_The_Father
+		icon = GFX_focus_GER_weltpolitik
+		x = 17
+		y = 4
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_There_is_no_other_choise
+	 }
+
+		completion_reward = {
+	custom_effect_tooltip = ger_North_america_tt
+		}
+	}
+	
+	focus = {
+		id = GER_But_to_Bless_the_Son
+		icon = GFX_focus_GER_weltpolitik
+		x = 19
+		y = 3
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_Trouble_In_Dominica
+	 }
+
+		completion_reward = {
+	custom_effect_tooltip = ger_North_america_tt
+		}
+	}
+	focus = {
+		id = GER_Convince_the_Catholics
+		icon = GFX_focus_GER_weltpolitik
+		x = 19
+		y = 4
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_But_to_Bless_the_Son
+	 }
+
+		completion_reward = {
+	custom_effect_tooltip = ger_North_america_tt
+		}
+	}
+	
+	focus = {
+		id = GER_The_Jig_is_Up
+		icon = GFX_focus_GER_weltpolitik
+		x = 18
+		y = 5
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+    DOM = {
+	has_government = neutrality
+	 }
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_And_to_Betray_The_Father
+	 }
+	 
+	prerequisite = {
+	focus = GER_Convince_the_Catholics
+	 }
+
+		completion_reward = {
+	custom_effect_tooltip = ger_North_america_tt
+		}
+	}
+	focus = {
+		id = GER_Endsieg_at_Last
+		icon = GFX_Endsieg
+		x = 0
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 25
+			add_ideas = GER_aubenpolitik
+		}
+	}
+	
+	focus = {
+		id = GER_A_New_War_approaches
+		icon = GFX_focus_GER_weltpolitik
+		x = 0
+		y = 1
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_Endsieg_at_Last
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 25
+			add_ideas = GER_aubenpolitik
+		}
+	}
+	
+	focus = {
+		id = GER_the_Wunderwaffen
+		icon = GFX_focus_GER_weltpolitik
+		x = 0
+		y = 2
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_A_New_War_approaches
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+hidden_effect = {
+			goto_province = 3544
+		}
+		create_entity = {
+			entity = nuke_entity
+			id = 0401447
+			province = 3544
+			scale = .40
+			min_zoom = -1
+		}
+		set_entity_animation = {
+			id = 0401447
+			animation = "attack"
+		}
+		set_global_flag = SP_Nuke
+		set_global_flag = Super_Event_Visible
+		play_song = "super_nuke"
+	}
+}
+
+
+	focus = {
+		id = GER_Deny_the_SS
+		icon = GFX_focus_GER_weltpolitik
+		x = -2
+		y = 3
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		mutually_exclusive = {
+	focus = GER_Put_them_to_Use
+	 }
+	prerequisite = {
+	focus = GER_the_Wunderwaffen
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+}
+
+
+
+  }
+  
+  	focus = {
+		id = GER_Put_them_to_Use
+		icon = GFX_focus_GER_weltpolitik
+		x = 2
+		y = 3
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	mutually_exclusive = {
+	focus = GER_Deny_the_SS
+	 }
+	prerequisite = {
+	focus = GER_the_Wunderwaffen
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+}
+
+
+
+  }
+  
+    focus = {
+		id = GER_A_Bridge_too_far
+		icon = GFX_focus_GER_weltpolitik
+		x = 0
+		y = 4
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_Deny_the_SS
+	focus = GER_Put_them_to_Use
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+}
+
+
+
+  }
+  
+      focus = {
+		id = GER_Provide_some_reforms
+		icon = GFX_focus_GER_weltpolitik
+		x = -4
+		y = 5
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_A_Bridge_too_far
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+}
+
+
+
+  }
+  
+    focus = {
+		id = GER_A_Talk_with_Hess
+		icon = GFX_focus_GER_weltpolitik
+		x = -5
+		y = 6
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_Provide_some_reforms
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+}
+
+
+
+  }
+  
+  focus = {
+		id = GER_Assimilation_not_Extinction
+		icon = GFX_focus_GER_weltpolitik
+		x = -3
+		y = 6
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_Provide_some_reforms
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+}
+
+
+
+  }
+   focus = {
+		id = GER_Assimilation_not_Extinction
+		icon = GFX_focus_GER_weltpolitik
+		x = -3
+		y = 6
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_Provide_some_reforms
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+}
+
+
+
+  }
+  
+    focus = {
+		id = GER_Crackdown_on_Radical_liberals
+		icon = GFX_focus_GER_weltpolitik
+		x = 4
+		y = 5
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_A_Bridge_too_far
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+}
+
+
+
+  }
+  
+  focus = {
+		id = GER_There_will_be_no_Democracy
+		icon = GFX_focus_GER_weltpolitik
+		x = 2
+		y = 6
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_Crackdown_on_Radical_liberals
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+}
+
+
+
+  }
+  
+    focus = {
+		id = GER_Fuhrerprinzip
+		icon = GFX_focus_GER_weltpolitik
+		x = 0
+		y = 7
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	mutually_exclusive = {
+	focus = GER_Dinner_with_Himmler
+	 }
+	prerequisite = {
+	focus = GER_There_will_be_no_Democracy
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+}
+
+
+
+  }
+  
+   focus = {
+		id = GER_Dinner_with_Himmler
+		icon = GFX_focus_GER_weltpolitik
+		x = 2
+		y = 7
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	mutually_exclusive = {
+	focus = GER_Fuhrerprinzip
+	 }
+	prerequisite = {
+	focus = GER_There_will_be_no_Democracy
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+}
+
+
+
+  }
+  
+    focus = {
+		id = GER_Not_one_Inch
+		icon = GFX_focus_GER_weltpolitik
+		x = 6
+		y = 6
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_Crackdown_on_Radical_liberals
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+}
+
+
+
+  }
+  
+    focus = {
+		id = GER_Put_them_to_Work_instead
+		icon = GFX_focus_GER_weltpolitik
+		x = 6
+		y = 7
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_Not_one_Inch
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+}
+
+
+
+  }
+  
+      focus = {
+		id = GER_2-3_years_in_Nordstern_and_forget
+		icon = GFX_focus_GER_weltpolitik
+		x = 6
+		y = 8
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_Put_them_to_Work_instead
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+}
+
+
+
+  }
+  
+  
+      focus = {
+		id = GER_The_Problem_dealt_with
+		icon = GFX_focus_GER_weltpolitik
+		x = 7
+		y = 9
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_2-3_years_in_Nordstern_and_forget
+	}
+	prerequisite = {
+	focus = GER_Deport_Liberals
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+}
+
+
+
+  }
+  
+  focus = {
+		id = GER_The_Reich_above_All
+		icon = GFX_focus_GER_weltpolitik
+		x = 8
+		y = 6
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_Crackdown_on_Radical_liberals
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+}
+
+
+
+  }
+  
+focus = {
+		id = GER_Bastion_of_Western_Hegemony
+		icon = GFX_focus_GER_weltpolitik
+		x = 8
+		y = 7
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_The_Reich_above_All
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+}
+
+
+
+  }
+  
+  focus = {
+		id = GER_Deport_Liberals
+		icon = GFX_focus_GER_weltpolitik
+		x = 8
+		y = 8
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_Bastion_of_Western_Hegemony
+	 }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+}
+
+
+
+  }
+  
+    focus = {
+		id = GER_Uber_Alles
+		icon = GFX_focus_GER_weltpolitik
+		x = 0
+		y = 10
+		cost = 2
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+	prerequisite = {
+	focus = GER_The_Problem_dealt_with
+	 }
+	 
+	prerequisite = {
+	focus = GER_Dinner_with_Himmler
+	focus = GER_Fuhrerprinzip
+	}
+	
+	prerequisite = {
+	focus = GER_Assimilation_not_Extinction
+	}
+	prerequisite = {
+	focus = GER_A_Talk_with_Hess
+	}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+}
+
+
+
+  }
+  
+  
+  
+   }

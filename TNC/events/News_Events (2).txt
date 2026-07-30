@@ -1,0 +1,159 @@
+##########################
+##########################
+####  world EVENTS #####
+##########################
+##########################
+
+add_namespace = world
+
+
+#ROC faction formed
+news_event = {
+	id = world.1
+	title = world.1.t
+	desc = world.1.desc
+	picture = GFX_world_event_generic_sign_treaty3
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world.1.a
+	}
+}
+
+#Mosley Wins in Malaysia
+news_event = {
+	id = world.2
+	title = world.2.t
+	desc = world.2.desc
+	picture = GFX_world_event_generic_sign_treaty3
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world.2.a
+	}
+}
+
+
+#Nowa Polska re-unifies Russia
+news_event = {
+	id = world.3
+	title = world.3.t
+	desc = world.3.desc
+	picture = GFX_news_Russian_Unification_Poland
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world.3.a
+		
+	set_global_flag = RUS_POL
+	set_global_flag = Super_Event_Visible
+	play_song = "super_russian_unification_pol"
+	}
+}
+
+#German Civil War begins
+news_event = {
+	id = world.4
+	title = world.4.t
+	desc = world.4.desc
+	picture = GFX_news_German_Civil_War
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world.4.a
+		
+		set_global_flag = GER_Endsieg
+		set_global_flag = Super_Event_Visible
+		play_song = "super_endsieg"
+	}
+}
+
+#Oster wins
+news_event = {
+	id = world.5
+	title = world.5.t
+	desc = world.5.desc
+	picture = GFX_news_GCW_Kaiserboos
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world.5.a
+		
+		set_global_flag = GER_Kaiser
+		set_global_flag = Super_Event_Visible
+		play_song = "super_kaiser"
+	}
+}
+
+
+#Vyatka Re-unifies Russia - Kadets
+news_event = {
+	id = world.6
+	title = world.6.t
+	desc = world.6.desc
+	picture = GFX_news_Russian_Unification_Kadets
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world.6.a
+		
+		set_global_flag = RUS_KDT
+		set_global_flag = Super_Event_Visible
+		play_song = "super_russian_unification_Kadets"
+	}
+}
+
+#British Civil War
+news_event = {
+	id = world.7
+	title = world.7.t
+	desc = world.7.desc
+	picture = GFX_news_Russian_Unification_Kadets
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world.7.a
+		
+		set_global_flag = ENG_fall
+		set_global_flag = Super_Event_Visible
+		play_song = "super_british_collapse"
+	}
+}
+
+# Balkan War
+news_event = {
+	id = world.8
+	title = world.8.t
+	desc = world.8.desc
+	picture = GFX_news_balkan_war 
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = world.8.a
+		play_song = "The_Battle_Has_Begun"
+	}
+}

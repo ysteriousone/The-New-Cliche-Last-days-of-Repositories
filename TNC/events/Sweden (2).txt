@@ -1,0 +1,27 @@
+﻿###########################
+# swedish Events
+###########################
+
+add_namespace = swe
+
+# Polish Civil War
+country_event = {
+	id = swe.1
+	title = swe.1.t
+	desc = swe.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	fire_only_once = yes
+    is_triggered_only = yes 
+	option = { # Alan we are so cooked
+		name = swe.1.a  
+	
+	add_stability = -0.05
+
+
+}
+
+
+}
+
+

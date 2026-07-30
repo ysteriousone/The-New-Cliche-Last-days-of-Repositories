@@ -1,0 +1,98 @@
+#formable_nations = {
+#
+#	icon = generic_formable_nations
+#
+#	allowed = {
+#		has_dlc = "Waking the Tiger"
+#	}
+#}
+
+USA_reunification_cascadia_cat = {
+	icon = generic_political_actions
+	
+	allowed = {
+		OR = {
+			tag = WSG
+			tag = ORE
+			tag = IDH
+		}
+	}
+}
+
+USA_reunification_North_US_cat = {
+	icon = generic_political_actions
+	
+	allowed = {
+		OR = {
+			tag = NEE
+			tag = NYC
+			tag = NJS
+			tag = PSY
+			tag = USA
+			tag = WVG
+		}
+	}
+}
+
+USA_reunification_Western_US_cat = {
+	icon = generic_political_actions
+	
+	allowed = {
+		OR = {
+			tag = CLR
+			tag = WYO
+			tag = MNA
+		}
+	}
+}
+
+USA_reunification_Central_US_cat = {
+	icon = generic_political_actions
+	
+	allowed = {
+		OR = {
+			tag = DKT
+			tag = SKT
+			tag = NEB
+			tag = KAN
+			tag = MIN
+			tag = IOW
+			tag = MSY
+		}
+	}
+}
+
+USA_reunification_great_lakes_cat = {
+	icon = generic_political_actions
+	
+	allowed = {
+		OR = {
+			tag = WSC
+			tag = MHG
+			tag = OHO
+			tag = IND
+			tag = ILL
+			tag = IOW
+			tag = MSY
+		}
+	}
+}
+USA_reunification_CSA_cat = {
+	icon = generic_political_actions
+	
+	allowed = {
+		OR = {
+			tag = VIR
+			tag = SLA
+			tag = NLA
+			tag = LNG
+			tag = FLR
+			tag = GGR
+			tag = ALA
+			tag = MSI
+			tag = AKN
+			tag = TSE
+			tag = KFC
+		}
+	}
+}

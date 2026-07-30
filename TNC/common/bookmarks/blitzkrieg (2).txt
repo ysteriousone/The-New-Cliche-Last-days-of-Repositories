@@ -1,0 +1,25 @@
+bookmarks = {
+	bookmark = {
+		name = "Africa"
+		desc = "BLITZKRIEG_DESC"
+		date = 1945.1.1.1
+		picture = "GFX_select_date_1939"
+		default_country = "GER"
+	
+		RKA = {
+			history = RKA_desc
+			ideology = fascism
+			ideas={
+			}
+			focuses = {
+			RKA_Send_A_Complaint
+			RKA_Fall
+			RKA_Is_a_nightmare
+			}
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
