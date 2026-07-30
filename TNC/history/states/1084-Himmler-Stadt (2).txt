@@ -1,0 +1,24 @@
+state={
+	id=1084
+	name="STATE_1084"
+		history={
+		owner = RKB
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			air_base = 2
+		}
+		add_core_of = FRA
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 3
+			}
+		}
+	}
+	provinces={
+		648 680 817 3652 3669 11628 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}

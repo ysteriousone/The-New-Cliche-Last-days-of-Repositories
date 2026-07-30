@@ -1,0 +1,29 @@
+state={
+	id=1083
+	name="STATE_1083"
+	state_category = city
+	history={
+		owner = RKB
+		victory_points = {
+			3652 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			air_base = 2
+		}
+		add_core_of = FRA
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 3
+			}
+		}
+	}
+	
+	provinces={
+		641 3650 6639 6668 9590 
+	}
+	manpower=10000
+	buildings_max_level_factor=1
+	local_supplies=0
+

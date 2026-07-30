@@ -1,0 +1,33 @@
+state={
+	id=1082
+	name="STATE_1082"
+	state_category = metropolis
+	provinces={
+		7661 
+	}
+	
+	history={
+		owner = RKK
+		victory_points = {
+			7661  20
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			fuel_silo = 1
+			air_base = 1
+		7661 = {
+		 naval_base = 1
+		  }
+		}
+		add_core_of = AZR
+		
+			buildings = {
+			infrastructure = 3
+		}
+
+	}
+	manpower=89000
+	buildings_max_level_factor=1
+	local_supplies=0
+}

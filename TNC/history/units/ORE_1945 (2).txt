@@ -1,0 +1,79 @@
+﻿
+division_template = {
+	name = "People's Battalions"
+	division_names_group = ORE_INF_01
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+	}
+	support = {
+	}
+}
+
+units = {
+
+	division = { # "1st US Militia Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12211
+		division_template = "People's Battalions"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	
+	division = { # "1st US Militia Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4826
+		division_template = "People's Battalions"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	
+	division = { # "1st US Militia Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12553
+		division_template = "People's Battalions"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+	
+	division = { # "1st US Militia Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11495
+		division_template = "People's Battalions"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+
+	}
+
+	
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "ORE"
+		}
+		requested_factories = 1
+		progress = 0.50
+		efficiency = 80
+	}
+}

@@ -1,0 +1,21 @@
+﻿l_english:
+ #IDEAS#
+ GER_endsieg:0 "Endsieg"
+ GER_devastation_after_the_war:0 "Economic Devastation After The War"
+ GER_the_exhausted_army:0 "Exhausted Army"
+ GER_rising_opposition:0 "Rising Opposition"
+ GER_aubenpolitik:0 "Außenpolitik"
+
+ #FOCUSES#
+ GER_focus_aubenpolitik:0 "Außenpolitik"
+
+ #EVENTS#
+ 
+ swe.1.t: "Kriegsmarine spotted in Skaneland!"
+
+ #DECISIONS#
+ 
+ 
+ #TOOLTIP#
+ ger_North_america_tt: "We will be able to help in America!"
+ ger_danish_belt_tt: "§RTHIS WILL HAMPER OUR STANDING WITH SWEDISH FASCISTS!§!"

@@ -1,0 +1,80 @@
+﻿
+division_template = {
+	name = "British Colonial Loyalists"
+	division_names_group = MAL_INF_01
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+	}
+	support = {
+	}
+}
+
+units = {
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10313
+		division_template = "British Colonial Loyalists"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1
+
+	}
+	
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4424
+		division_template = "British Colonial Loyalists"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1
+
+	}
+	
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7427
+		division_template = "British Colonial Loyalists"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1
+
+	}
+	
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4412
+		division_template = "British Colonial Loyalists"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1
+
+	}
+	
+
+	
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "MAL"
+		}
+		requested_factories = 1
+		progress = 0.50
+		efficiency = 80
+	}
+}
