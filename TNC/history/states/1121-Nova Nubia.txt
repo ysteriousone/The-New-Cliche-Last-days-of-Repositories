@@ -1,0 +1,19 @@
+state={
+	id=1121
+	name="STATE_1121"
+	provinces={
+		5631 13796 13802 13805 13814 13815 13817 13818 13824 13825 
+	}
+		history= {
+		owner = SME
+		add_core_of = SME
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+		}
+	}
+	manpower=1923324
+	buildings_max_level_factor=1
+	state_category = wasteland
+	local_supplies=0
+}

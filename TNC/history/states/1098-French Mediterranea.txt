@@ -1,0 +1,23 @@
+state={
+	id=1098
+	name="STATE_1098"
+	provinces={
+		13740 13747 13748 13756 13757 13758 13759 13764 13773 13775 13776 13777 13780 13781 
+	}
+history={
+		owner = ZZZ
+		buildings = {
+			infrastructure = 3 #was: 5
+			dockyard = 1
+			air_base = 2
+
+
+		}
+		add_core_of = ZZZ
+
+	}
+	manpower= 1980293
+	buildings_max_level_factor=1
+	local_supplies=0
+	state_category = city
+}

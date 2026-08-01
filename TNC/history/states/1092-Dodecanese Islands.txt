@@ -1,0 +1,21 @@
+state={
+	id=1092
+	name="STATE_1092"
+	provinces={
+		13524 13526 13536 13545 13547 13559 13560 13562 13565 13594 13599 
+	}
+		history={
+		owner = GRE
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+		}
+		add_core_of = GRE
+		add_claim_by = TUR
+	}
+	manpower= 10000
+	state_category = wasteland
+	buildings_max_level_factor=1
+	local_supplies=0
+}

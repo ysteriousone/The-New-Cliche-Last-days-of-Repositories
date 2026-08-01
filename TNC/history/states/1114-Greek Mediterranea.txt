@@ -1,0 +1,19 @@
+state={
+	id=1114
+	name="STATE_1114"
+	provinces={
+		13528 13531 13533 13548 13550 13558 13561 13568 13571 
+	}
+		history= {
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+		}
+	}
+	manpower=1923324
+	buildings_max_level_factor=1
+	state_category = town
+	local_supplies=0
+}

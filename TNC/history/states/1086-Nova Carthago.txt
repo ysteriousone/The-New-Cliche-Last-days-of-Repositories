@@ -1,0 +1,19 @@
+state={
+	id=1086
+	name="STATE_1086"
+	provinces={
+		9049 13819 13820 13856 13861 13862 13864 13865 13866 13867 13868 13869 13870 
+	}
+	state_category = wasteland
+
+	history={
+		owner = SME
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = LBA
+	}
+	manpower= 100000
+	buildings_max_level_factor=1
+	local_supplies=0
+}

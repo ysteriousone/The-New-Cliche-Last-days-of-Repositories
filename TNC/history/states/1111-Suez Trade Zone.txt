@@ -1,0 +1,19 @@
+state={
+	id=1111
+	name="STATE_1111"
+	provinces={
+		6011 13448 13451 13457 13461 13467 13472 
+	}
+		history= {
+		owner = ZZZ
+		add_core_of = ZZZ
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+		}
+	}
+	manpower=1923324
+	buildings_max_level_factor=1
+	state_category = town
+	local_supplies=0
+}

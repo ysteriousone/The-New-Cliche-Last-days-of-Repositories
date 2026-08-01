@@ -1,0 +1,19 @@
+state={
+	id=1087
+	name="STATE_1087"
+	provinces={
+		13483 13504 13509 
+	}
+	state_category = metropolis
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = CYP
+	}
+	manpower= 100000
+	buildings_max_level_factor=10
+	local_supplies=1.0
+}

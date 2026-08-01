@@ -1,0 +1,24 @@
+state={
+	id=1105
+	name="STATE_1105"
+	provinces={
+		13521 13527 13535 13546 13553 13557 
+	}
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 3 #was: 5
+			dockyard = 1
+			air_base = 2
+
+
+		}
+		add_core_of = SYR
+		add_core_of = TUR
+
+	}
+	manpower=666
+	buildings_max_level_factor=1
+	local_supplies=0
+state_category = wasteland
+}
