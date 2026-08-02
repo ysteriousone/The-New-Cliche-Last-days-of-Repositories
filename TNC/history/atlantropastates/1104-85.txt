@@ -1,0 +1,13 @@
+state={
+	id=1104
+	name="STATE_1104"
+	provinces={
+		1452 5681 13636 13653 13655 13656 13657 13664 
+	}
+	manpower = 5000
+	history={
+		owner = ZZZ
+	}
+	state_category = rural
+	local_supplies=0
+}
